@@ -1,0 +1,63 @@
+{
+  "project": "Origami Master",
+  "phase": "ui-first",
+  "backend_status": "future",
+  "features": [
+    {
+      "id": "auth-ui",
+      "name": "Splash and Login UI",
+      "screens": ["Splash Screen", "Login Screen"],
+      "status": "todo"
+    },
+    {
+      "id": "home-ui",
+      "name": "Home Screen UI",
+      "screens": ["Home Screen"],
+      "status": "todo"
+    },
+    {
+      "id": "explore-ui",
+      "name": "Explore Screen UI",
+      "screens": ["Explore Screen"],
+      "status": "todo"
+    },
+    {
+      "id": "fold-detail-ui",
+      "name": "Fold Detail UI",
+      "screens": ["Fold Detail Screen"],
+      "status": "todo",
+      "business_rule": "Community creations shown here must belong to the selected fold type only."
+    },
+    {
+      "id": "learning-ui",
+      "name": "Learning Step UI",
+      "screens": ["Learning Step Screen"],
+      "status": "todo"
+    },
+    {
+      "id": "completion-ui",
+      "name": "Completion Result UI",
+      "screens": ["Completion Result Screen"],
+      "status": "todo"
+    },
+    {
+      "id": "gallery-sharing-ui",
+      "name": "Gallery and Private Sharing UI",
+      "screens": [
+        "Gallery Screen",
+        "Creation Detail Screen",
+        "Generate Share Link Screen",
+        "Shared Links Screen",
+        "Shared Creation Screen"
+      ],
+      "status": "todo",
+      "business_rule": "Only users with the private link can view Shared Creation Screen."
+    },
+    {
+      "id": "achievement-profile-ui",
+      "name": "Achievement and Profile UI",
+      "screens": ["Achievement List Screen", "Profile Screen"],
+      "status": "todo"
+    }
+  ]
+}
