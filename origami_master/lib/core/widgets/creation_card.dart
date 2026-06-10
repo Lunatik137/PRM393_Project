@@ -1,14 +1,22 @@
 import 'package:flutter/material.dart';
+import '../theme/app_colors.dart';
+import '../theme/app_spacing.dart';
+import '../theme/app_text_styles.dart';
+import 'visibility_badge.dart';
 
 class CreationCard extends StatelessWidget {
-  final String title;
-  final String date;
+  final String foldName;
+  final String imagePath;
+  final bool isPublic;
+  final DateTime completedAt;
   final VoidCallback onTap;
 
   const CreationCard({
     super.key,
-    required this.title,
-    required this.date,
+    required this.foldName,
+    required this.imagePath,
+    required this.isPublic,
+    required this.completedAt,
     required this.onTap,
   });
 
@@ -22,23 +30,47 @@ class CreationCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              child: Container(
-                color: Colors.grey[200],
-                child: const Center(child: Icon(Icons.photo, size: 40)),
+              child: Stack(
+                children: [
+                  Image.asset(
+                    imagePath,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                    errorBuilder: (context, error, stackTrace) => Container(
+                      color: AppColors.surfaceMuted,
+                      child: const Center(
+                        child: Icon(
+                          Icons.photo,
+                          color: AppColors.textDisabled,
+                          size: 40,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    top: AppSpacing.sm,
+                    right: AppSpacing.sm,
+                    child: VisibilityBadge(isPublic: isPublic),
+                  ),
+                ],
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(AppSpacing.md),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    title,
-                    style: const TextStyle(fontWeight: FontWeight.bold),
+                    foldName,
+                    style: AppTextStyles.cardTitle,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  Text(date, style: Theme.of(context).textTheme.bodySmall),
+                  const SizedBox(height: AppSpacing.xxs),
+                  Text(
+                    '${completedAt.day}/${completedAt.month}/${completedAt.year}',
+                    style: AppTextStyles.caption,
+                  ),
                 ],
               ),
             ),
