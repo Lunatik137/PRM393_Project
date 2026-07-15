@@ -1,0 +1,3641 @@
+{
+  "Categories": [
+    {
+      "Id": "a0000000-0000-0000-0000-000000000001",
+      "Name": "Traditional",
+      "Slug": "traditional",
+      "Description": "Traditional origami models.",
+      "Icon": "assets/icons/traditional.svg"
+    },
+    {
+      "Id": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Animals",
+      "Slug": "animals",
+      "Description": "Animals origami models.",
+      "Icon": "assets/icons/animals.svg"
+    },
+    {
+      "Id": "a0000000-0000-0000-0000-000000000003",
+      "Name": "Birds",
+      "Slug": "birds",
+      "Description": "Birds origami models.",
+      "Icon": "assets/icons/birds.svg"
+    },
+    {
+      "Id": "a0000000-0000-0000-0000-000000000004",
+      "Name": "Boxes",
+      "Slug": "boxes",
+      "Description": "Boxes origami models.",
+      "Icon": "assets/icons/boxes.svg"
+    },
+    {
+      "Id": "a0000000-0000-0000-0000-000000000005",
+      "Name": "Flowers",
+      "Slug": "flowers",
+      "Description": "Flowers origami models.",
+      "Icon": "assets/icons/flowers.svg"
+    },
+    {
+      "Id": "a0000000-0000-0000-0000-000000000006",
+      "Name": "Stars",
+      "Slug": "stars",
+      "Description": "Stars origami models.",
+      "Icon": "assets/icons/stars.svg"
+    },
+    {
+      "Id": "a0000000-0000-0000-0000-000000000007",
+      "Name": "Toys",
+      "Slug": "toys",
+      "Description": "Toys origami models.",
+      "Icon": "assets/icons/toys.svg"
+    }
+  ],
+  "OrigamiModels": [
+    {
+      "Id": "035d870f-2185-411b-828c-b0513807b1af",
+      "CategoryId": "a0000000-0000-0000-0000-000000000003",
+      "Name": "Origami Crane",
+      "Slug": "origami-crane",
+      "Description": "Learn how to fold a beautiful origami Origami Crane. Follow our step-by-step instructions.",
+      "Difficulty": 2,
+      "ThumbnailUrl": "/images/origami/origami-crane-1.jpg",
+      "CoverImageUrl": "/images/origami/origami-crane-1.jpg",
+      "EstimatedMinutes": 15,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Jumping Frog",
+      "Slug": "origami-jumping-frog",
+      "Description": "Learn how to fold a beautiful origami Origami Jumping Frog. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-frogs.jpg",
+      "CoverImageUrl": "/images/origami/origami-frogs.jpg",
+      "EstimatedMinutes": 12,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "CategoryId": "a0000000-0000-0000-0000-000000000007",
+      "Name": "Origami Boat",
+      "Slug": "origami-boat",
+      "Description": "Learn how to fold a beautiful origami Origami Boat. Follow our step-by-step instructions.",
+      "Difficulty": 4,
+      "ThumbnailUrl": "/images/origami/traditional-origami-boat.jpg",
+      "CoverImageUrl": "/images/origami/traditional-origami-boat.jpg",
+      "EstimatedMinutes": 5,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "CategoryId": "a0000000-0000-0000-0000-000000000006",
+      "Name": "Origami Ninja Star",
+      "Slug": "origami-ninja-star",
+      "Description": "Learn how to fold a beautiful origami Origami Ninja Star. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-ninja-stars-2.jpg",
+      "CoverImageUrl": "/images/origami/origami-ninja-stars-2.jpg",
+      "EstimatedMinutes": 6,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "CategoryId": "a0000000-0000-0000-0000-000000000007",
+      "Name": "Origami Butterfly",
+      "Slug": "origami-butterfly",
+      "Description": "Learn how to fold a beautiful origami Origami Butterfly. Follow our step-by-step instructions.",
+      "Difficulty": 4,
+      "ThumbnailUrl": "/images/origami/origami-butterflies-1.jpg",
+      "CoverImageUrl": "/images/origami/origami-butterflies-1.jpg",
+      "EstimatedMinutes": 8,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "CategoryId": "a0000000-0000-0000-0000-000000000007",
+      "Name": "Paper Fortune Teller",
+      "Slug": "paper-fortune-teller",
+      "Description": "Learn how to fold a beautiful origami Paper Fortune Teller. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-fortune-teller.jpg",
+      "CoverImageUrl": "/images/origami/origami-fortune-teller.jpg",
+      "EstimatedMinutes": 6,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "25dc2f34-db69-4be5-9f24-e83f1a0222d7",
+      "CategoryId": "a0000000-0000-0000-0000-000000000007",
+      "Name": "Origami Heart",
+      "Slug": "origami-heart",
+      "Description": "Learn how to fold a beautiful origami Origami Heart. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-hearts.jpg",
+      "CoverImageUrl": "/images/origami/origami-hearts.jpg",
+      "EstimatedMinutes": 5,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Fox",
+      "Slug": "origami-fox",
+      "Description": "Learn how to fold a beautiful origami Origami Fox. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-fox.jpg",
+      "CoverImageUrl": "/images/origami/origami-fox.jpg",
+      "EstimatedMinutes": 6,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "CategoryId": "a0000000-0000-0000-0000-000000000003",
+      "Name": "Origami Swan",
+      "Slug": "origami-swan",
+      "Description": "Learn how to fold a beautiful origami Origami Swan. Follow our step-by-step instructions.",
+      "Difficulty": 3,
+      "ThumbnailUrl": "/images/origami/traditonal-origami-swans-1-1.jpg",
+      "CoverImageUrl": "/images/origami/traditonal-origami-swans-1-1.jpg",
+      "EstimatedMinutes": 6,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Turtle",
+      "Slug": "origami-turtle",
+      "Description": "Learn how to fold a beautiful origami Origami Turtle. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-turtle.jpg",
+      "CoverImageUrl": "/images/origami/origami-turtle.jpg",
+      "EstimatedMinutes": 10,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Rabbit",
+      "Slug": "origami-rabbit",
+      "Description": "Learn how to fold a beautiful origami Origami Rabbit. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-rabbits-2.jpg",
+      "CoverImageUrl": "/images/origami/origami-rabbits-2.jpg",
+      "EstimatedMinutes": 7,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Dragon",
+      "Slug": "origami-dragon",
+      "Description": "Learn how to fold a beautiful origami Origami Dragon. Follow our step-by-step instructions.",
+      "Difficulty": 3,
+      "ThumbnailUrl": "/images/origami/origami-dragon-3.jpg",
+      "CoverImageUrl": "/images/origami/origami-dragon-3.jpg",
+      "EstimatedMinutes": 16,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Bat",
+      "Slug": "origami-bat",
+      "Description": "Learn how to fold a beautiful origami Origami Bat. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-bats-1.jpg",
+      "CoverImageUrl": "/images/origami/origami-bats-1.jpg",
+      "EstimatedMinutes": 6,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "CategoryId": "a0000000-0000-0000-0000-000000000005",
+      "Name": "Origami Lily Flower",
+      "Slug": "origami-lily-flower",
+      "Description": "Learn how to fold a beautiful origami Origami Lily Flower. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/traditional-origami-lily.jpg",
+      "CoverImageUrl": "/images/origami/traditional-origami-lily.jpg",
+      "EstimatedMinutes": 11,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "CategoryId": "a0000000-0000-0000-0000-000000000005",
+      "Name": "Origami Lotus Flower",
+      "Slug": "origami-lotus-flower",
+      "Description": "Learn how to fold a beautiful origami Origami Lotus Flower. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-lotus-flowers-1-1.jpg",
+      "CoverImageUrl": "/images/origami/origami-lotus-flowers-1-1.jpg",
+      "EstimatedMinutes": 8,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "CategoryId": "a0000000-0000-0000-0000-000000000005",
+      "Name": "Traditional Origami Rose",
+      "Slug": "traditional-origami-rose",
+      "Description": "Learn how to fold a beautiful origami Traditional Origami Rose. Follow our step-by-step instructions.",
+      "Difficulty": 4,
+      "ThumbnailUrl": "/images/origami/easy-origami-rose-1.jpg",
+      "CoverImageUrl": "/images/origami/easy-origami-rose-1.jpg",
+      "EstimatedMinutes": 5,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "CategoryId": "a0000000-0000-0000-0000-000000000005",
+      "Name": "Traditional Origami Tulip",
+      "Slug": "traditional-origami-tulip",
+      "Description": "Learn how to fold a beautiful origami Traditional Origami Tulip. Follow our step-by-step instructions.",
+      "Difficulty": 4,
+      "ThumbnailUrl": "/images/origami/traditional-origami-tulips.jpg",
+      "CoverImageUrl": "/images/origami/traditional-origami-tulips.jpg",
+      "EstimatedMinutes": 8,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "341e05be-2030-413a-a76f-2661b42ed305",
+      "CategoryId": "a0000000-0000-0000-0000-000000000006",
+      "Name": "Origami Lucky Star",
+      "Slug": "origami-lucky-star",
+      "Description": "Learn how to fold a beautiful origami Origami Lucky Star. Follow our step-by-step instructions.",
+      "Difficulty": 4,
+      "ThumbnailUrl": "/images/origami/origami-stars.jpg",
+      "CoverImageUrl": "/images/origami/origami-stars.jpg",
+      "EstimatedMinutes": 5,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "CategoryId": "a0000000-0000-0000-0000-000000000007",
+      "Name": "Origami Envelope",
+      "Slug": "origami-envelope",
+      "Description": "Learn how to fold a beautiful origami Origami Envelope. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-envelopes-1.jpg",
+      "CoverImageUrl": "/images/origami/origami-envelopes-1.jpg",
+      "EstimatedMinutes": 13,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "CategoryId": "a0000000-0000-0000-0000-000000000002",
+      "Name": "Origami Squirrel",
+      "Slug": "origami-squirrel",
+      "Description": "Learn how to fold a beautiful origami Origami Squirrel. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-squirrel-1.jpg",
+      "CoverImageUrl": "/images/origami/origami-squirrel-1.jpg",
+      "EstimatedMinutes": 13,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "CategoryId": "a0000000-0000-0000-0000-000000000003",
+      "Name": "Traditional Origami Owl",
+      "Slug": "traditional-origami-owl",
+      "Description": "Learn how to fold a beautiful origami Traditional Origami Owl. Follow our step-by-step instructions.",
+      "Difficulty": 4,
+      "ThumbnailUrl": "/images/origami/origami-owls.jpg",
+      "CoverImageUrl": "/images/origami/origami-owls.jpg",
+      "EstimatedMinutes": 9,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "CategoryId": "a0000000-0000-0000-0000-000000000004",
+      "Name": "Origami Box With Lid",
+      "Slug": "origami-box-with-lid",
+      "Description": "Learn how to fold a beautiful origami Origami Box With Lid. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-boxes.jpg",
+      "CoverImageUrl": "/images/origami/origami-boxes.jpg",
+      "EstimatedMinutes": 13,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "CategoryId": "a0000000-0000-0000-0000-000000000003",
+      "Name": "Origami Flapping Bird",
+      "Slug": "origami-flapping-bird",
+      "Description": "Learn how to fold a beautiful origami Origami Flapping Bird. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/how-to-make-origami-bird.jpg",
+      "CoverImageUrl": "/images/origami/how-to-make-origami-bird.jpg",
+      "EstimatedMinutes": 9,
+      "Materials": "Square Paper"
+    },
+    {
+      "Id": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "CategoryId": "a0000000-0000-0000-0000-000000000005",
+      "Name": "Origami Floral Swirls",
+      "Slug": "origami-floral-swirls",
+      "Description": "Learn how to fold a beautiful origami Origami Floral Swirls. Follow our step-by-step instructions.",
+      "Difficulty": 1,
+      "ThumbnailUrl": "/images/origami/origami-floral-swirls.jpg",
+      "CoverImageUrl": "/images/origami/origami-floral-swirls.jpg",
+      "EstimatedMinutes": 12,
+      "Materials": "Square Paper"
+    }
+  ],
+  "OrigamiSteps": [
+    {
+      "Id": "3017d9fb-692b-48e2-a07f-d477ea3f6d6b",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the colored side of the paper facing up in a diamond position. Fold and unfold along both diagonals (horizontal and vertical).",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "561d2450-66d3-4bb8-84e3-540c1cc75e9f",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-2.gif"
+    },
+    {
+      "Id": "b67752b3-0d91-4dc9-a439-1e3c679474bd",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold and unfold the paper side to side, in both directions.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-3-scaled.jpg"
+    },
+    {
+      "Id": "8f84f63a-32a0-4688-a782-86a0f522c4ce",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Collapse along the existing creases to form a Square base by bringing the left and right corners down to meet the bottom corner.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-4.png"
+    },
+    {
+      "Id": "b6c7dd95-167d-4490-a798-8c1c1ffca2bf",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Fold the top flaps’ left and right edges to meet the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-5.jpg"
+    },
+    {
+      "Id": "59ca62a7-0253-417a-9a75-7ba55e99042e",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Fold the top corner down, aligning it with the top edges of the flaps you just made in Step 5.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-6.png"
+    },
+    {
+      "Id": "61ec3a44-5e64-45d4-9cbd-b1f48399f995",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Unfold Step 5.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-7.png"
+    },
+    {
+      "Id": "049198c2-4e1d-42e0-944a-efe9954bc523",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Lift the top layer and bring the bottom corner up to form a Petal fold. The outer edges will meet the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-8.png"
+    },
+    {
+      "Id": "17630dd8-f49b-41c4-a2ed-57111ba72720",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-9.gif"
+    },
+    {
+      "Id": "295855ea-a28f-436b-8a0a-04cd20ef73e6",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Fold and unfold the left and right edges to meet the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-10-scaled.jpg"
+    },
+    {
+      "Id": "f03ed998-ecea-4d0f-9afa-9cc1e48aa7b7",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Just like in Step 8, lift the top layer and bring the bottom corner up to form another Petal fold.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-11.png"
+    },
+    {
+      "Id": "4c135436-5aa0-4bc5-8d49-92426e703272",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Fold the left and right edges to the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-12.png"
+    },
+    {
+      "Id": "977b6da5-ccee-43ef-92fa-775928a54261",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-13.gif"
+    },
+    {
+      "Id": "c5994bbe-cb48-46c8-b317-2074ae029059",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Again, fold the left and right edges to the vertical centerline, leaving a small gap.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-14.png"
+    },
+    {
+      "Id": "ce1c298e-ea83-4c98-9d48-ecc61c87ab82",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Fold the top right flap over to the left.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-15.png"
+    },
+    {
+      "Id": "37d110a3-2143-490d-aa02-e7a11f5c26f2",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-16.gif"
+    },
+    {
+      "Id": "ed5310c2-d4f9-45ce-9bba-801d100c979c",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Fold the top right flap over to the left, just like in Step 15.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-17.png"
+    },
+    {
+      "Id": "2710b701-b001-4f53-ba17-bd9f38dfcda4",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Fold the bottom corner of the top flap upward along the existing horizontal crease.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-18.png"
+    },
+    {
+      "Id": "e3684693-0a9f-4252-af12-91581776b48a",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-19.gif"
+    },
+    {
+      "Id": "72ece65a-7237-4382-b529-25876b5ce03e",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Repeat the same fold as in Step 18.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-20.png"
+    },
+    {
+      "Id": "2a53035f-b13e-476e-9772-372a86565324",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Fold the top right flap over to the left.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-21.png"
+    },
+    {
+      "Id": "7e2cad81-3ff2-4573-87b4-b4722155251f",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-step-22.gif"
+    },
+    {
+      "Id": "0162079d-a54a-41bb-9ceb-f5d3bb2dcc56",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Fold the top right flap over to the left again.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-23.png"
+    },
+    {
+      "Id": "29325db2-f4cf-4e65-8c80-846ab331d493",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 24,
+      "Title": "Step 24",
+      "Description": "Grab the crane’s tail (it’s between the wings) and Swivel fold it to the left. Align it with the outer edge and flatten the paper.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-24.png"
+    },
+    {
+      "Id": "a42f550c-1573-4a0a-ba13-6050908bd852",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 25,
+      "Title": "Step 25",
+      "Description": "Do the same on the right side.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-25.png"
+    },
+    {
+      "Id": "eeccaa8f-7661-4421-a9dd-580225def9e1",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 26,
+      "Title": "Step 26",
+      "Description": "Mountain fold the crane’s head to the right. There’s no exact reference point here, so adjust the position to your liking. Crease well, then unfold.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-26.png"
+    },
+    {
+      "Id": "1376b873-fb41-4022-b166-1abe65a42ea7",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 27,
+      "Title": "Step 27",
+      "Description": "Push down the crane’s head, and inside reverse fold the head along the creases you just made.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-27.png"
+    },
+    {
+      "Id": "701a5b77-c651-4b19-8083-9ee23aeaeb87",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 28,
+      "Title": "Step 28",
+      "Description": "Gently open the wings.",
+      "ImageUrl": "/images/origami/origami-crane-diagram-step-28.png"
+    },
+    {
+      "Id": "beb9570f-4ad8-450c-b488-fa37270fbd25",
+      "OrigamiModelId": "035d870f-2185-411b-828c-b0513807b1af",
+      "StepNumber": 29,
+      "Title": "Step 29",
+      "Description": "Step 29: Follow the diagram carefully.",
+      "ImageUrl": "/images/origami/origami-crane-paper-fold-completed.jpg"
+    },
+    {
+      "Id": "eb51e3d7-d855-461c-b17b-d0ad02103d5b",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side of the paper facing up. Fold it in half horizontally, then unfold.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "ed97710d-db1a-439c-a202-0ab45f1d6103",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the paper in half vertically, from left to right.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-2.jpg"
+    },
+    {
+      "Id": "e978821d-c9e5-4729-a58e-cd1a792bbefe",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold the paper in half horizontally again, then unfold.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-3.png"
+    },
+    {
+      "Id": "d12f3430-f55a-420e-ad34-d754298f434a",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Fold the bottom right edge to the horizontal centerline. Crease well, then unfold.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-4.png"
+    },
+    {
+      "Id": "82f895e5-e4fc-4ff3-aac2-bb1b0c466b81",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Fold the bottom left edge to the horizontal centerline. Crease well, then unfold.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-5.png"
+    },
+    {
+      "Id": "210c4897-8f90-4494-8d71-3b01b3c80b23",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-6.gif"
+    },
+    {
+      "Id": "863d7856-03e0-45fc-b197-8f7946df3db0",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Fold the bottom edge to the horizontal centerline. Crease well, then unfold.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-7.png"
+    },
+    {
+      "Id": "9856e5c2-9394-4836-9abb-4d74122efdf7",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-8.gif"
+    },
+    {
+      "Id": "9b1ee75a-3d46-4eb1-8dd8-20a5486e51db",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Push the bottom left and right sides inward while folding the bottom edge up to meet the horizontal centerline.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-9.png"
+    },
+    {
+      "Id": "d123b648-597d-4ccf-a9aa-ba589f88f982",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Fold the top flaps downward. There are no exact reference points here. These will become the frog’s front legs, so try to make them symmetrical.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-10.png"
+    },
+    {
+      "Id": "c0386968-e1a6-4d30-bca6-7c2bcbfb2a0b",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Rotate the model 180 degrees.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-11.gif"
+    },
+    {
+      "Id": "534f8a5a-b37e-40da-958e-c113dec0b88f",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Fold the bottom edge up to the nearest horizontal line.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-12.png"
+    },
+    {
+      "Id": "862b82b5-896f-4412-8d51-d369da8c0123",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Fold the left and right edges to the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-13.png"
+    },
+    {
+      "Id": "df063996-e555-481d-aabd-67aab303910d",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Fold the bottom edge up to meet the point where the front legs connect.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-14.png"
+    },
+    {
+      "Id": "2e750093-d5ae-41ba-b7f8-7147f25934b5",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Fold the left and right edges of the top flap down to the bottom edge, then unfold them.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-15.png"
+    },
+    {
+      "Id": "293c4215-728b-4cd2-9aa2-55ed2be9eac2",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Unfold the top flap from Step 14.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-16.gif"
+    },
+    {
+      "Id": "138dfd20-6491-4578-8afd-c4e5b95680d0",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Lift the bottom flaps and push the bottom edge up to meet the point where the front legs connect. The bottom flaps will move outward on each side.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-17.png"
+    },
+    {
+      "Id": "2fcf4cae-6ab7-48e5-a80d-7a30697a42a9",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Fold the left and right flaps down along the existing creases.",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-step-18.gif"
+    },
+    {
+      "Id": "ddf3a842-d2d6-4ce8-972b-16eed4feb78d",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Fold the inner edges of the bottom flaps to the nearest crease lines to form the frog’s back legs.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-19.png"
+    },
+    {
+      "Id": "6d3c11ad-8f50-45ac-9c4c-3f715682ebe5",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Fold the bottom section up along the line where the front and back legs meet.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-20.png"
+    },
+    {
+      "Id": "e0f309d5-4e1e-4d76-805d-76b255978323",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Fold the top flap in half from top to bottom. Crease well.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-21.png"
+    },
+    {
+      "Id": "6521d717-d182-4594-b020-da08933535e2",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Turn the model over and gently stretch out the back legs.",
+      "ImageUrl": "/images/origami/origami-frog-diagram-step-22.png"
+    },
+    {
+      "Id": "6c8d199d-2e93-447e-b55c-ea1dda2494f2",
+      "OrigamiModelId": "50236181-a1a4-40c7-aa8b-c5349e70738f",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Press down on the back and let it hop 🐸",
+      "ImageUrl": "/images/origami/origami-frog-paper-fold-completed.jpg"
+    },
+    {
+      "Id": "4ad83ac6-915d-40c3-8be3-9bca103bff6c",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-boat-paper-fold-step-1-.jpg"
+    },
+    {
+      "Id": "410199c1-6e71-4ec0-a7b2-7d6d4a4f1806",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-boat-paper-fold-step-2-.jpg"
+    },
+    {
+      "Id": "76265bb2-cb4f-4725-9883-e64184ec1f52",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-boat-step-3-paper-fold-edited.jpg"
+    },
+    {
+      "Id": "f3a8bf17-a834-45dc-9e11-2ff5b9fb0b7b",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-boat-step-4-paper-fold.jpg"
+    },
+    {
+      "Id": "7a955c73-aad0-4d79-acc9-269f73bb0d12",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-boat-step-5-paper-fold.jpg"
+    },
+    {
+      "Id": "8bd8a671-b972-4187-b680-e51d37ab0e7a",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Boat-Diagram-step-6.jpg"
+    },
+    {
+      "Id": "85c3b079-2404-47bf-99a6-d9e8fa68b8fb",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Boat-Diagram-step-7.jpg"
+    },
+    {
+      "Id": "9eb644a0-a66b-4cee-bf88-ab61591a441c",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Boat-Diagram-step-10.jpg"
+    },
+    {
+      "Id": "5ab5056f-82ef-48e3-bcbb-4fa1c8871579",
+      "OrigamiModelId": "14db2b32-ceb9-48a3-8ca0-4889e3c6b3dc",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Boat-Diagram-step-12.jpg"
+    },
+    {
+      "Id": "727a2277-6b9c-48b7-a527-5f13179441ba",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with two identical square sheets of paper, white side up. Fold and unfold each sheet in half vertically and horizontally to create two centerlines.",
+      "ImageUrl": "/images/origami/origami-ninja-star-step-1.jpg"
+    },
+    {
+      "Id": "7ae79767-859c-4860-8bd4-874403575f2c",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the left and right edges of both papers to the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-ninja-star-step-2.jpg"
+    },
+    {
+      "Id": "856c1e43-c3c0-4a24-b0c3-2539190d7099",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold both papers in half lengthwise.",
+      "ImageUrl": "/images/origami/origami-ninja-star-diagram-step-3.png"
+    },
+    {
+      "Id": "f8dead58-ea8b-475f-bf8b-8e2da6581474",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "First unit: Fold the top edge to the left edge. Then, fold the bottom edge to the right edge.",
+      "ImageUrl": "/images/origami/origami-ninja-star-diagram-step-4.png"
+    },
+    {
+      "Id": "2572dba9-56d2-4c38-9759-ff6c987eae54",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "First unit: Fold the top corner to the right along the diagonal of the square area. Then, fold the bottom corner to the left along diagonal of the square area.",
+      "ImageUrl": "/images/origami/origami-ninja-star-diagram-step-5.png"
+    },
+    {
+      "Id": "a78c88e1-3c4d-4bb5-b2a2-abb87b2b1830",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Rotate the first unit about 45° counterclockwise. Then, rotate the second unit about 22° counterclockwise.",
+      "ImageUrl": "/images/origami/origami-ninja-star-step-6.gif"
+    },
+    {
+      "Id": "565d24c1-08e0-42c1-a307-f3740b1eb7fc",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Turn the first unit over.",
+      "ImageUrl": "/images/origami/origami-ninja-star-step-7.gif"
+    },
+    {
+      "Id": "2ae67aed-c789-4fe2-881d-27e89df9674f",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Place the second unit on top of the first unit.",
+      "ImageUrl": "/images/origami/origami-ninja-star-step-8.gif"
+    },
+    {
+      "Id": "dfb1807d-cd99-410a-b4a0-736a17c6c666",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Tuck the tips of the first unit’s flaps into the pockets of the second unit. Adjust the layers, then crease firmly.",
+      "ImageUrl": "/images/origami/origami-ninja-star-diagram-step-9.png"
+    },
+    {
+      "Id": "80f98c59-a94a-444b-9b13-d2400601f1c7",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-ninja-star-step-10.gif"
+    },
+    {
+      "Id": "770cce61-8889-4662-9284-65a323528c02",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Tuck the tips of the second unit’s flaps into the pockets of the first unit. Adjust the layers, then crease well.",
+      "ImageUrl": "/images/origami/origami-ninja-star-diagram-step-11.png"
+    },
+    {
+      "Id": "ad458ce6-d408-472d-bfc0-08f33b7f5ac2",
+      "OrigamiModelId": "15d490ef-6260-4df2-96b7-fc5ebfd5682b",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Step 12: Follow the diagram carefully.",
+      "ImageUrl": "/images/origami/origami-ninja-completed.jpg"
+    },
+    {
+      "Id": "8e40b1ad-40ff-41c6-bacf-65d579d966c1",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side of the paper facing up. Fold the paper in half horizontally and unfold. Then fold it in half vertically and unfold.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "06788fe1-8a30-4b91-ac75-e8688d5abae9",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-2.gif"
+    },
+    {
+      "Id": "05414e96-74a0-4b0b-b99d-71894c71a0f5",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold and unfold both diagonals.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-3.jpg"
+    },
+    {
+      "Id": "538bacca-9828-4ecf-8f52-a1d91da1a96a",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Fold and unfold all four corners to the center point.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-4.jpg"
+    },
+    {
+      "Id": "a3b80614-677b-4dd3-b1e3-87518d2cd687",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Turn the paper over again.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-5.gif"
+    },
+    {
+      "Id": "e0c7abe7-961a-4782-a0c8-e231756ef9d2",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Fold and unfold each side to the centerline.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-6.jpg"
+    },
+    {
+      "Id": "bd882e83-e8db-478d-8c20-969cb0bfddef",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Collapse the model along the existing creases. Start by folding the left and right edges to the vertical centerline. Then, fold the top edge downward.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-7.png"
+    },
+    {
+      "Id": "86818deb-8584-4c52-a7dc-9c634ff85c7b",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Push the bottom edge of the bottom layer upward, folding along the existing crease. The bottom corners will shift outward as you do this.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-8.png"
+    },
+    {
+      "Id": "2c302c2b-b202-45e3-a681-c149356dadc6",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Fold the bottom left and right flaps downward along the existing creases.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-9.gif"
+    },
+    {
+      "Id": "847ae4a6-fdc2-4b86-84e9-c336fcd706e5",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Mountain fold the top section backward, behind the model.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-10.png"
+    },
+    {
+      "Id": "748e4440-3a3f-4776-8277-1f66c6fb9db5",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Fold the top left flap inward along the dashed line. The crease should go from the top corner to the middle of the bottom edge. Repeat on the right side. This will to narrow the body of your butterfly.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-11.png"
+    },
+    {
+      "Id": "2121a31f-2a29-4ef7-9e4e-1d998a52bd42",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Fold the entire model in half from left to right.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-12.png"
+    },
+    {
+      "Id": "a0205db1-8031-4691-be0b-073995f7253f",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Fold the top flap to the left along the dashed line. There’s no exact reference here, so adjust based on the look you want.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-13.png"
+    },
+    {
+      "Id": "5f1ef2a8-490e-4384-b081-33589d3e1bfd",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-step-14.gif"
+    },
+    {
+      "Id": "df269e56-702a-405c-a000-42209326f2d7",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Fold the top flap to the right. Then gently spread the wings and slightly fold the butterfly in half to give it a more natural, lifted shape.",
+      "ImageUrl": "/images/origami/origami-butterfly-diagram-step-15.png"
+    },
+    {
+      "Id": "49354b86-4354-44ef-9b63-ea3f8d19460a",
+      "OrigamiModelId": "aa81ebb9-82e8-4fff-83c2-5d359a7d4ff1",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Step 16: Follow the diagram carefully.",
+      "ImageUrl": "/images/origami/origami-butterfly-paper-fold-completed-1.jpg"
+    },
+    {
+      "Id": "9c9735f8-1ddd-410f-b46a-9522a6cea5ad",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "4a765804-f748-477b-8639-f3907ba9a8b3",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-2.jpg"
+    },
+    {
+      "Id": "25b26c9b-b68d-40f6-838e-3cb27a8d0a40",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-3.jpg"
+    },
+    {
+      "Id": "364cf7ac-8326-4845-a858-49ebd425c4b1",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-4.gif"
+    },
+    {
+      "Id": "6ad9f609-5e8b-4b69-8ded-73771ed2dbf5",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-5.jpg"
+    },
+    {
+      "Id": "3bbbb19a-b4e5-4aec-93b6-9ef45777e975",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-6.jpg"
+    },
+    {
+      "Id": "dedb26ee-55ea-425b-85e4-7fa2e45e6a8e",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-diagram-step-7-1024x1024.png"
+    },
+    {
+      "Id": "c216451b-560e-4606-b6bd-d8c7871fcc90",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-diagram-step-8-1024x1024.png"
+    },
+    {
+      "Id": "55f1db7e-773a-483c-9d47-0f12479178d8",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-diagram-step-9-1024x1024.png"
+    },
+    {
+      "Id": "49fe415f-b808-4d82-ac84-f95c2ebb0937",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-paper-fold-step-10.jpg"
+    },
+    {
+      "Id": "3f85698a-2b95-4089-ae6e-64a43ed0b80c",
+      "OrigamiModelId": "6255142d-d3b7-40b7-a339-1a20a8151f0b",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-fortune-teller-diagram-step-11-1024x1024.png"
+    },
+    {
+      "Id": "6c6dda68-7bbd-4e9c-85b6-3e1523243c14",
+      "OrigamiModelId": "25dc2f34-db69-4be5-9f24-e83f1a0222d7",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side of the paper facing up. Fold the paper in half vertically, then unfold it to create a center crease.",
+      "ImageUrl": "/images/origami/origami-heart-diagram-step-1.png"
+    },
+    {
+      "Id": "ae340e53-e24e-4995-956e-c3b6f5adb76b",
+      "OrigamiModelId": "25dc2f34-db69-4be5-9f24-e83f1a0222d7",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the paper in half horizontally, then unfold again.",
+      "ImageUrl": "/images/origami/origami-heart-step-2.jpg"
+    },
+    {
+      "Id": "5cc45a01-00a4-40e1-885e-94829549a0d6",
+      "OrigamiModelId": "25dc2f34-db69-4be5-9f24-e83f1a0222d7",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-heart-step-12.gif"
+    },
+    {
+      "Id": "0f15dc8b-99c8-4683-8cd6-4642f73b0be3",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side facing up in a diamond position. Fold the paper in half vertically, then unfold to create a center crease.",
+      "ImageUrl": "/images/origami/origami-fox-step-1.jpg"
+    },
+    {
+      "Id": "d1450760-a062-4efa-8d3a-6c34db8af3d6",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the paper in half horizontally, bringing the bottom corner up to meet the top corner.",
+      "ImageUrl": "/images/origami/origami-fox-step-2.gif"
+    },
+    {
+      "Id": "1144e777-20c6-4dff-857f-025e05af38d7",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold the left and right corners up to meet the top corner.",
+      "ImageUrl": "/images/origami/origami-fox-step-3.jpg"
+    },
+    {
+      "Id": "7bdc5292-0d9e-490e-a081-2f9ebbd5f5be",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-fox-step-4.gif"
+    },
+    {
+      "Id": "ea4cf468-e8eb-46d9-8799-9c8de75bd9e0",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Fold the paper in half from left to right.",
+      "ImageUrl": "/images/origami/origami-fox-step-5.gif"
+    },
+    {
+      "Id": "9313f0d5-8352-48c4-97b9-3b3b0b9fe8fe",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Rotate the paper about 45° clockwise.",
+      "ImageUrl": "/images/origami/origami-fox-step-6.gif"
+    },
+    {
+      "Id": "5167a3f1-76fa-4dae-beee-9a93ca5df006",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Fold the top flap’s right edge to the left along the dashed line to form one of the fox’s ears. There is no exact reference point, so position it wherever you like.",
+      "ImageUrl": "/images/origami/origami-fox-diagram-step-7.png"
+    },
+    {
+      "Id": "6dc50766-15cd-4195-98a2-719679eb9618",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Lift the center flap until it stands at about a 90° angle.",
+      "ImageUrl": "/images/origami/origami-fox-step-8.gif"
+    },
+    {
+      "Id": "2193e720-bc03-425e-8e81-c388c2bec637",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Open the layers of the center flap, then squash fold them down. Align the corner with the center crease.",
+      "ImageUrl": "/images/origami/origami-fox-diagram-step-9.png"
+    },
+    {
+      "Id": "721148fa-b294-4c37-b4a6-f6449f203854",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Fold the left corner inward along the dotted lines to shape the fox’s tail. Align the two bottom edges so your fox can stand on its own.",
+      "ImageUrl": "/images/origami/origami-fox-diagram-step-10.png"
+    },
+    {
+      "Id": "e1fc0f58-f490-4af9-ad8c-e298e78e9013",
+      "OrigamiModelId": "e23590ae-79eb-44cf-bf2b-cbacde7441ae",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Draw a cute face to bring your fox to life.",
+      "ImageUrl": "/images/origami/origami-fox-diagram-completed.png"
+    },
+    {
+      "Id": "10bd52ee-da5f-44f4-9437-1220c24ad1dc",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side facing up in a diamond position. Fold the paper in half vertically, then unfold to create a center crease.",
+      "ImageUrl": "/images/origami/origami-swan-step-1-e1782827637838.jpg"
+    },
+    {
+      "Id": "f8d101d8-45dd-4173-9d65-a81e8dd1bd1d",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the bottom edges to meet the vertical center crease.",
+      "ImageUrl": "/images/origami/origami-swan-step-2.jpg"
+    },
+    {
+      "Id": "74c11118-2009-4364-bec8-8b63c3d65862",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-swan-step-3.gif"
+    },
+    {
+      "Id": "f7fcc7d7-86ae-420e-81ec-1bd459329fe1",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Fold the bottom edges to the center crease again.",
+      "ImageUrl": "/images/origami/origami-swan-step-4.jpg"
+    },
+    {
+      "Id": "6b23571f-1f20-4063-b0e9-f1c05fb0c97a",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Fold the bottom corner up to meet the top corner.",
+      "ImageUrl": "/images/origami/origami-swan-diagram-step-5.png"
+    },
+    {
+      "Id": "b796425e-e41e-4ef4-a39e-9ee598b6d0d7",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Rotate the paper 90° counterclockwise.",
+      "ImageUrl": "/images/origami/origami-swan-step-6.gif"
+    },
+    {
+      "Id": "ebfb50a4-c0b3-4e84-8bd4-2e07c5233639",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Fold the top flap’s left corner to the right. There is no exact reference point, so fold it to your preferred position. This will become the swan’s head.",
+      "ImageUrl": "/images/origami/origami-swan-step-7.gif"
+    },
+    {
+      "Id": "b9594c8c-4eb8-413e-b785-83e1cac30bfc",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Mountain fold the top section to the back of the model, folding it in half.",
+      "ImageUrl": "/images/origami/origami-swan-step-8.gif"
+    },
+    {
+      "Id": "fcd6ca37-1072-42f8-b18d-02e2e0d2d992",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Pull the swan’s neck upward, adjust the angle to your liking, then flatten the paper.",
+      "ImageUrl": "/images/origami/origami-swan-diagram-step-9.png"
+    },
+    {
+      "Id": "4fe71a5f-cc7d-4f6a-8d42-08bd43a71bdd",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Repeat the same process for the swan’s head. Lift it up, adjust the angle to your liking, then flatten it.",
+      "ImageUrl": "/images/origami/origami-swan-diagram-step-10.png"
+    },
+    {
+      "Id": "f24aefce-446f-4533-ab40-758e6c5baf80",
+      "OrigamiModelId": "ca2ed554-43dc-47ca-9bf4-f4cdd3c585cf",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "You can make your origami swan look even more realistic with a few simple adjustments. In just 4 easy steps, you can give it a completely different look. Watch the video to see how I shape mine.",
+      "ImageUrl": "/images/origami/origami-swan-diagram-completed.png"
+    },
+    {
+      "Id": "df5f662e-17af-4561-bb68-77a218c3b6f6",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side of the paper facing up. Fold the paper in half vertically, then unfold to create a centerline.",
+      "ImageUrl": "/images/origami/origami-turtle-step-1.jpg"
+    },
+    {
+      "Id": "07627f71-191f-42a8-9659-44625c088cf2",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-turtle-step-2.gif"
+    },
+    {
+      "Id": "42078649-bc86-485a-aa78-f5afa9eaba34",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold the bottom left and right corners to the centerline.",
+      "ImageUrl": "/images/origami/origami-turtle-step-3.jpg"
+    },
+    {
+      "Id": "a86395fd-897c-46f2-b468-72d763faf4c1",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-turtle-step-4.gif"
+    },
+    {
+      "Id": "97948d66-738a-4f80-b001-54a2771c0ec2",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "On each side, fold the bottom edge to the centerline, only through the top layer. The bottom layer will move to the front.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-5.png"
+    },
+    {
+      "Id": "48b9a238-55a6-441a-9dfa-21fe9e625fdb",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Rotate the paper 180°.",
+      "ImageUrl": "/images/origami/origami-turtle-step-6.gif"
+    },
+    {
+      "Id": "35a9dd16-171c-4f20-a9ae-61974b31e630",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Fold the bottom left corner to the centerline. Make sure the circled points meet.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-7.png"
+    },
+    {
+      "Id": "556825bb-bbdf-4a41-b465-b5fa06cc595a",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Fold the top flap down along the dashed line.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-8.png"
+    },
+    {
+      "Id": "7e154304-991e-40e2-b662-fe0fa1d65e73",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Repeat Steps 7 and 8 on the right side.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-9.png"
+    },
+    {
+      "Id": "86e6c87e-507b-44fd-8e96-84cf4dc471b5",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Fold the white square area in half from top to bottom along the horizontal diagonal.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-10.png"
+    },
+    {
+      "Id": "854315e4-812a-44d5-8aef-7231b7bc1abe",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Fold the flap you just folded up. Use the circled points as a guide. The top flap should meet the two points where the lower layers meet.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-11.png"
+    },
+    {
+      "Id": "456443bf-8f8d-4ab0-ae72-8f8a6e9179cc",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Fold the bottom right edge to meet the top edge. Crease well, then unfold.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-12.png"
+    },
+    {
+      "Id": "54e54026-87b2-4f78-b744-5a9f66937976",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Make a swivel fold as shown. Lift the top layer, fold along the crease from Step 12, adjust the layers, then flatten.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-13.png"
+    },
+    {
+      "Id": "cecf7517-c716-4710-abff-5f935f826e35",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Repeat Steps 12 and 13 on the left side.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-14.png"
+    },
+    {
+      "Id": "a5d50454-8f60-4ec0-afa6-0dee0c50a07f",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Pleat fold the bottom corner to form the turtle’s tail.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-15.png"
+    },
+    {
+      "Id": "1f93ba2f-b8f6-4309-affe-dce93075a81d",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-16.png"
+    },
+    {
+      "Id": "b3bdf035-9be9-4100-b229-8c70d8640f0a",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Mountain fold the shell’s left and right corners to round the shell. There are no exact reference points, so adjust the angles to your liking. Try to fold both sides symmetrically.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-17.png"
+    },
+    {
+      "Id": "d3dbc7a1-ce9a-4318-96cf-1134b8123c7e",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Pleat fold the tail to shorten it and lock the bottom layers.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-18.png"
+    },
+    {
+      "Id": "1faaff86-d5d1-4e97-8086-a6db8b5db4b4",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Narrow the legs to add shape and volume.",
+      "ImageUrl": "/images/origami/origami-turtl-diagram-step-19.png"
+    },
+    {
+      "Id": "8e06d3e5-2595-4a35-8cfb-cb5a75529fc1",
+      "OrigamiModelId": "1767d63c-758c-4387-bd60-2c5925c08ce4",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "🐢 Folding tip: I also like to pleat the head slightly to shorten it and add more volume. It makes the turtle look like it is hiding its head.",
+      "ImageUrl": "/images/origami/origami-turtle-completed.jpg"
+    },
+    {
+      "Id": "44337930-f6a3-4aaf-a2a5-0c0083529f30",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-rabbit-step-1.jpg"
+    },
+    {
+      "Id": "42930017-7ae8-4f6e-a557-e9b60d33edeb",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-rabbit-step-2.jpg"
+    },
+    {
+      "Id": "bd2ab961-c0ef-41d5-8b25-0dbd6a11b82a",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-3-1024x1024.png"
+    },
+    {
+      "Id": "82e0a594-03d7-44f1-b80d-95d99befe009",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-4-1024x1024.png"
+    },
+    {
+      "Id": "b8fb6982-c45c-401f-b92d-3dbcf7744b36",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-5-1024x1024.png"
+    },
+    {
+      "Id": "984a1a2a-093b-4edd-b607-566f729da29e",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-6-1024x1024.png"
+    },
+    {
+      "Id": "e15c0397-3100-4ce4-beac-f2336f5154df",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-rabbit-step-7.gif"
+    },
+    {
+      "Id": "4ce3cbd3-22e9-429e-bb96-9edb777e2eaa",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-8-1024x1024.png"
+    },
+    {
+      "Id": "b64d5888-8651-440e-883a-0e0a6c4d1dfb",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-8.5-1024x1024.png"
+    },
+    {
+      "Id": "b77bcd62-4f14-4872-80b2-7abc4f9092ec",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-9-1024x1024.png"
+    },
+    {
+      "Id": "5a56a074-e09c-4710-af02-dda5598eac61",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-10-1024x1024.png"
+    },
+    {
+      "Id": "cdb5fc19-e05c-4bbe-bb0e-f834f3406a88",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-11-1024x1024.png"
+    },
+    {
+      "Id": "5d9e9a9a-7a74-4deb-9f12-efc20db48173",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-12-1024x1024.png"
+    },
+    {
+      "Id": "4f178908-3551-4d4d-854a-476d3deae8fd",
+      "OrigamiModelId": "beb6ee50-d390-474f-abe0-4c8339c400c6",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/origami-rabbit-diagram-step-13-1024x1024.png"
+    },
+    {
+      "Id": "135ab0d4-3ea2-420f-85fc-b64ca5a843ac",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "65b5a2b1-9655-4f91-961a-507036d5e17e",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-2-1024x1024.png"
+    },
+    {
+      "Id": "91ed3361-88c1-43fc-b131-546352024349",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-3-1024x1024.png"
+    },
+    {
+      "Id": "be4297ef-4055-4cbe-979d-1c73d96df558",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-4.gif"
+    },
+    {
+      "Id": "e4e886f3-88f1-4423-ae57-b8c31ca28ec5",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-5.jpg"
+    },
+    {
+      "Id": "3ddd3056-cbd9-422b-8d6f-078a9135084f",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-6-1024x1024.png"
+    },
+    {
+      "Id": "160d868b-3e31-4447-af67-4abf721c8cee",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-7.gif"
+    },
+    {
+      "Id": "0d3eaa6c-8ce8-4e6d-aab8-c644ec381b0b",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-8-1024x1024.png"
+    },
+    {
+      "Id": "81a79d23-0acf-4444-bde7-632e2bf8c633",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-9-1024x1024.png"
+    },
+    {
+      "Id": "808563b6-0d92-416f-a6df-8a331e11d8a8",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-10-1024x1024.png"
+    },
+    {
+      "Id": "cdb830a5-b9c5-4416-9af4-f3a20841a2bb",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-11-1024x1024.png"
+    },
+    {
+      "Id": "bc2e6922-2ace-45c9-ad46-970777fef582",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-12-1024x1024.png"
+    },
+    {
+      "Id": "e500394f-672d-4a87-b2e5-9073bf218882",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-13.gif"
+    },
+    {
+      "Id": "73654f13-be31-4752-bc6e-3561c6b4124a",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-14.jpg"
+    },
+    {
+      "Id": "5be9429d-4b9a-4faf-aaf9-8653cd7dde63",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Carefully fold following the diagram for step 15.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-15.gif"
+    },
+    {
+      "Id": "e648d964-5416-42e8-a562-ff6e72923eeb",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Carefully fold following the diagram for step 16.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-16.gif"
+    },
+    {
+      "Id": "e7d1f21a-32a6-4d50-bda6-47e836938cd4",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Carefully fold following the diagram for step 17.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-17-1024x1024.png"
+    },
+    {
+      "Id": "cf1c1278-cbe8-4b8a-8485-71948fc16726",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Carefully fold following the diagram for step 18.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-18-1024x1024.png"
+    },
+    {
+      "Id": "019a672d-77cc-4f48-a0e6-3d8675c1c99c",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Carefully fold following the diagram for step 19.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-19.gif"
+    },
+    {
+      "Id": "5a7b779a-c61b-426e-9c1d-9b7aa26afcdd",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Carefully fold following the diagram for step 20.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-20-1024x1024.png"
+    },
+    {
+      "Id": "0a6aaa01-ba62-4715-bf3d-2a5917799d35",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Carefully fold following the diagram for step 21.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-21-1024x1024.png"
+    },
+    {
+      "Id": "77c82f5a-ab63-467b-9280-9c81f2474604",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Carefully fold following the diagram for step 22.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-22-1024x1024.png"
+    },
+    {
+      "Id": "ea7f6c7a-9f42-4902-b534-0571fb588d60",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Carefully fold following the diagram for step 23.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-23-1024x1024.png"
+    },
+    {
+      "Id": "ab6b821a-aa6b-4b99-96e2-e3673c2f1952",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 24,
+      "Title": "Step 24",
+      "Description": "Carefully fold following the diagram for step 24.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-24-1024x1024.png"
+    },
+    {
+      "Id": "3cbfa86e-59ec-4eb1-aa60-d9894bdaf24e",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 25,
+      "Title": "Step 25",
+      "Description": "Carefully fold following the diagram for step 25.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-25-1024x1024.png"
+    },
+    {
+      "Id": "20e14660-9f10-4663-a353-5c2000122978",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 26,
+      "Title": "Step 26",
+      "Description": "Carefully fold following the diagram for step 26.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-26-1024x1024.png"
+    },
+    {
+      "Id": "a65beb79-9fbb-4221-9cc2-d60cf9ec951a",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 27,
+      "Title": "Step 27",
+      "Description": "Carefully fold following the diagram for step 27.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-27-1024x1024.png"
+    },
+    {
+      "Id": "291ef0c3-b6f1-4eea-8d89-bbc3ac3b5233",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 28,
+      "Title": "Step 28",
+      "Description": "Carefully fold following the diagram for step 28.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-28-1024x1024.png"
+    },
+    {
+      "Id": "c1818707-2ba8-46cf-a6f0-b7dc1c2a5d20",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 29,
+      "Title": "Step 29",
+      "Description": "Carefully fold following the diagram for step 29.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-29.png"
+    },
+    {
+      "Id": "5ac5797d-baec-48fd-9136-98b256123e97",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 30,
+      "Title": "Step 30",
+      "Description": "Carefully fold following the diagram for step 30.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-30-1024x1024.png"
+    },
+    {
+      "Id": "967b4e9d-90ec-4fb1-966c-dec6ae4fa777",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 31,
+      "Title": "Step 31",
+      "Description": "Carefully fold following the diagram for step 31.",
+      "ImageUrl": "/images/origami/origami-dragon-paper-fold-step-31.gif"
+    },
+    {
+      "Id": "3f6abd74-6807-4086-98d2-2b59e5bf782e",
+      "OrigamiModelId": "8c7a20d0-d3e0-4d22-b884-083b1346bfd3",
+      "StepNumber": 32,
+      "Title": "Step 32",
+      "Description": "Carefully fold following the diagram for step 32.",
+      "ImageUrl": "/images/origami/origami-dragon-diagram-step-32-1024x1024.png"
+    },
+    {
+      "Id": "f8780cb2-1486-42e4-b9f5-572681573c83",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-1-1024x1024.png"
+    },
+    {
+      "Id": "fd37371e-cdc3-49e4-bdab-531aa167ad16",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-2-1024x1024.png"
+    },
+    {
+      "Id": "1d3297e1-609e-4375-8932-e3ac7c05ccc0",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-3-1024x1024.png"
+    },
+    {
+      "Id": "220d8d1b-a1c8-4f07-a8ed-bda200d441df",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-4-1024x1024.png"
+    },
+    {
+      "Id": "b96797cf-69fa-42ff-86ff-3971d89793f0",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-5-1024x1024.png"
+    },
+    {
+      "Id": "e635899c-038a-41df-8ae2-dc6926e4b0c5",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-6-1024x1024.png"
+    },
+    {
+      "Id": "1fe7c3a5-48fe-47cd-84da-4f034fea3cc5",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-bat-paper-fold-step-7.gif"
+    },
+    {
+      "Id": "7f45e38e-58b3-4d4d-bffc-b384e2c1cace",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-8-1024x1024.png"
+    },
+    {
+      "Id": "bcbdee52-353d-44b2-9089-93895cc3d533",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-bat-paper-fold-step-9.gif"
+    },
+    {
+      "Id": "08da5e06-15e5-4f65-9a98-8a3500864db0",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-10-1024x1024.png"
+    },
+    {
+      "Id": "633ab266-c757-4616-a2b1-827c8cb9e25e",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-11-1024x1024.png"
+    },
+    {
+      "Id": "7c852882-bff2-4d31-ad60-b8f2b97968d9",
+      "OrigamiModelId": "be9d0afd-1d70-4f06-ab3b-7c23ae253871",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-bat-diagram-step-12-1024x1024.png"
+    },
+    {
+      "Id": "c7bf261f-0f3b-4a99-8953-eaf2d767bb42",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the colored side of the paper facing up. Fold and unfold in half both horizontally and vertically.",
+      "ImageUrl": "/images/origami/origami-lily-step-1.png"
+    },
+    {
+      "Id": "6823b06e-43f0-4669-b6fd-875e26317295",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-lily-step-2.gif"
+    },
+    {
+      "Id": "b542295a-9fec-4b4e-9a71-880af775187e",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold and unfold along both diagonals.",
+      "ImageUrl": "/images/origami/origami-lily-step-3.png"
+    },
+    {
+      "Id": "c274fe15-0929-4dfe-9bfb-dc59ce18ceeb",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Collapse the paper along the existing creases to form a Waterbomb base. Push the left and right edges inward and bring them down to meet the bottom edge. Flatten the model.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-4.png"
+    },
+    {
+      "Id": "155b65e0-4ce3-458b-906e-2459cca79091",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Fold the bottom left corner up to the top corner, top flap only.",
+      "ImageUrl": "/images/origami/origami-lily-step-5.jpg"
+    },
+    {
+      "Id": "e6a31a57-99fd-4882-9b23-e86c8614019c",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Fold and unfold the flap from Step 5 in half from left to right. The left edge should meet the vertical centerline.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-6.png"
+    },
+    {
+      "Id": "e9bfc549-eff8-465d-9159-172a24c8eb64",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Unfold the flap from Step 5.",
+      "ImageUrl": "/images/origami/origami-lily-step-7.gif"
+    },
+    {
+      "Id": "709580e9-0a37-4c15-a211-d692c97cad3e",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Repeat Steps 5 to 7 on the three remaining flaps.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-8.png"
+    },
+    {
+      "Id": "9a64e938-4932-4143-a720-0fbe47681995",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Lift the top left flap. Open and spread its layers, then Squash fold along the existing creases in the top triangle area. The model will not lie flat yet.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-9.png"
+    },
+    {
+      "Id": "82c0ab8b-7c45-42ce-84bf-1311c45d2804",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Mountain fold the bottom left and right areas behind the bottom triangle to start a Petal fold. Then fold the triangle area upward. The model should now lay flat.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-10.png"
+    },
+    {
+      "Id": "ef4b403a-9960-4603-ae38-cc76e3bb0dbd",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Fold the top flap you just made down.",
+      "ImageUrl": "/images/origami/origami-lily-step-11.gif"
+    },
+    {
+      "Id": "8bb26e39-4035-4ab6-b6e0-dbcd252fdebb",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Repeat Steps 9 to 11 on the three remaining flaps. You just folded the origami lily’s petals.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-12.png"
+    },
+    {
+      "Id": "c35ac1f5-7e9c-422b-ab02-586b790d5f9b",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Fold the top left and right edges to the vertical centerline. Repeat on the other side.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-13.png"
+    },
+    {
+      "Id": "c00fa99d-b62f-4e53-8330-b4fbe2d45de3",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Flip two flaps from right to left. Repeat on the other side.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-14.png"
+    },
+    {
+      "Id": "5d943e1f-36c4-4875-b385-391c73a37c32",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Again, fold the top left and right edges to the vertical centerline. Repeat on the other side.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-15.png"
+    },
+    {
+      "Id": "b9425e06-f07c-4ae3-8911-beeb59a2e51b",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Fold the top flap in the bottom section up along the dashed line. Then repeat on the other side.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-16.png"
+    },
+    {
+      "Id": "364dee89-f106-48bc-935d-8c2a3cf51e9a",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Flip two flaps from right to left. Repeat on the other side.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-17.png"
+    },
+    {
+      "Id": "6f8606ff-30dd-4295-bbb3-3bea1e02ccf1",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Again, fold the top flap in the bottom section up along the dashed line. Then repeat on the other side.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-18.png"
+    },
+    {
+      "Id": "d3895741-f0f2-4485-9b25-17c8a611f62f",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Rotate the model 180°.",
+      "ImageUrl": "/images/origami/origami-lily-step-19.gif"
+    },
+    {
+      "Id": "9f01790f-38cd-4d6f-b732-fef551c1ee73",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Fold the petals up to about a 90° angle.",
+      "ImageUrl": "/images/origami/origami-lily-diagram-step-20.png"
+    },
+    {
+      "Id": "cb29d5c6-c165-4398-8d6f-a43059c89f00",
+      "OrigamiModelId": "76a0c1a6-11bb-494a-9294-6a4f071c4711",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Step 21: Follow the diagram carefully.",
+      "ImageUrl": "/images/origami/origami-lily-completed.jpg"
+    },
+    {
+      "Id": "1dd2ad0e-069b-4cbb-a78e-4424c4c5fdb7",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-1-1024x1024.png"
+    },
+    {
+      "Id": "29cdacab-a3a6-4c60-82dd-ffb981bd8710",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-2-1024x1024.png"
+    },
+    {
+      "Id": "07414215-d586-4536-91c6-68e12d13ecd7",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-3-1024x1024.png"
+    },
+    {
+      "Id": "c23bc283-b0bf-4361-8692-a1a9d0cbfc99",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-4-1024x1024.png"
+    },
+    {
+      "Id": "c7677e99-6a32-492f-ae18-e946d040aed5",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-5-1024x1024.png"
+    },
+    {
+      "Id": "bf1a0688-8f84-4291-b96a-53dfdc0bcc5f",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-6-1024x1024.png"
+    },
+    {
+      "Id": "f371b83a-55ef-4a11-828e-ae58ff3f48aa",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-7-1024x1024.png"
+    },
+    {
+      "Id": "2e85156c-0699-48cf-9036-1fd3a3b720ca",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-8-1024x1024.png"
+    },
+    {
+      "Id": "f3620c62-c8ab-436d-8706-b117ff14bc1f",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-9-1024x1024.png"
+    },
+    {
+      "Id": "422fae8b-afaa-4389-aa94-93a3b53b8319",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-10-1024x1024.png"
+    },
+    {
+      "Id": "48f6cebb-1c50-4329-81b4-2b0f79413bdb",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-lotus-paper-fold-step-11.jpg"
+    },
+    {
+      "Id": "6eec2b9c-32b1-46d9-9e38-80fca7f552a7",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-12-1024x1024.png"
+    },
+    {
+      "Id": "a9df8cf6-5536-4c1a-9609-3f7fed30e8db",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-13-1024x1024.png"
+    },
+    {
+      "Id": "9d161d4d-1d42-4c5f-a5c4-42d03f92aedd",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-14-1024x1024.png"
+    },
+    {
+      "Id": "cdc4067f-ad05-434c-80da-10cb0799a8e2",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Carefully fold following the diagram for step 15.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-15-1024x1024.png"
+    },
+    {
+      "Id": "a1d86646-a7c8-4bc2-a58a-d66afd4f1666",
+      "OrigamiModelId": "538c07bd-e8e8-46b9-ae83-6a05cef2f814",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Carefully fold following the diagram for step 16.",
+      "ImageUrl": "/images/origami/origami-lotus-diagram-step-16-1024x1024.png"
+    },
+    {
+      "Id": "50ded3be-3188-4f6e-ab52-9a8b79f18716",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-1.png"
+    },
+    {
+      "Id": "fce98e0f-a08a-4afb-9ae5-28921c0445f0",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-2.png"
+    },
+    {
+      "Id": "2a963877-8018-46c2-b944-81905dd0f8f4",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-3.png"
+    },
+    {
+      "Id": "26e1bfe1-1d07-4be0-8bb0-0414762fca65",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-4.png"
+    },
+    {
+      "Id": "cb96b532-01ec-45cb-a8ae-73b3a1bcb816",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-5.png"
+    },
+    {
+      "Id": "7730ea78-f38a-4579-87ef-f3da7a516caa",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-6.png"
+    },
+    {
+      "Id": "4c07c61d-231d-4d73-8ebd-982d994bda23",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-7.png"
+    },
+    {
+      "Id": "e50e003f-8054-4b10-aad0-a67e22c9300b",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-8.png"
+    },
+    {
+      "Id": "984d354e-dabb-4c10-b756-5e69ed4d3f28",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-rose-paper-fold-step-9.png"
+    },
+    {
+      "Id": "b2c327f0-8995-4cf0-a737-ac91b00734ae",
+      "OrigamiModelId": "58879c89-3d06-433e-be5d-f247ca57ffcc",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/Traditional-Fractal-Rose-Diagram-Step-10.png"
+    },
+    {
+      "Id": "12209b5c-2cf6-451e-af3f-2954bd06118c",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "36279312-ff0f-4f66-a7ea-9b9b75b50779",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-2.jpg"
+    },
+    {
+      "Id": "cd5217fc-fddd-4c47-a046-008e274c92b3",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-3.jpg"
+    },
+    {
+      "Id": "e7077e85-39c5-4ebe-b0e9-68f0a6b0aa10",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-4.jpg"
+    },
+    {
+      "Id": "023af482-757b-42d6-94a8-9ccef7fe098c",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-5.gif"
+    },
+    {
+      "Id": "1db9bdbd-b6d5-43f1-a81a-1c290239dd02",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-6.jpg"
+    },
+    {
+      "Id": "0e614bc2-1e74-4b37-b92f-3a860a0b4679",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-7.jpg"
+    },
+    {
+      "Id": "c09d1abf-8730-4e66-a150-a15e4a39ae7f",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Tulip-Diagram-step-8.jpg"
+    },
+    {
+      "Id": "b21c04fa-0a71-4e9d-b802-ab74d73f2106",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-9.jpg"
+    },
+    {
+      "Id": "35e17350-baad-4566-9883-80509cfb466b",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Tulip-Diagram-step-10.jpg"
+    },
+    {
+      "Id": "b94dee63-c7c2-4e77-bbd2-4e1cd3164e9a",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-11.jpg"
+    },
+    {
+      "Id": "5c7035d1-a743-468c-b6df-f020c571996e",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-12.jpg"
+    },
+    {
+      "Id": "56c3388f-2d5e-42ed-9045-04fa5d47c3c6",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-tulip-paper-fold-step-13.jpg"
+    },
+    {
+      "Id": "1155cca1-271b-4c6c-b94c-63e86702ba7f",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Tulip-Diagram-step-14.jpg"
+    },
+    {
+      "Id": "dc74c883-bdb6-44fc-9875-18e7b16daca6",
+      "OrigamiModelId": "6120cbf2-25d3-4bff-bd9a-ea7b2bdbe88f",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Carefully fold following the diagram for step 15.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Tulip-Diagram-step-15.jpg"
+    },
+    {
+      "Id": "63f6c639-91e0-4907-ba06-7871849e1d94",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-1.jpg"
+    },
+    {
+      "Id": "3ddd17ed-13ed-4dd9-8471-65ec3c477924",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-4.jpg"
+    },
+    {
+      "Id": "8087c62a-73fa-424b-a665-89732d61ab6c",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-5.jpg"
+    },
+    {
+      "Id": "3f0503a5-0e36-457e-9671-a3551bb3382c",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-lucky-star-paper-fold-step-4.gif"
+    },
+    {
+      "Id": "799d0d76-1017-407f-a47e-168708feaedb",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-7.jpg"
+    },
+    {
+      "Id": "0f1a29b7-67f9-4e66-9fca-7c5c0f2eef17",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-8.jpg"
+    },
+    {
+      "Id": "b93161d1-a1b1-446a-9894-ccd1c43514a6",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-9.jpg"
+    },
+    {
+      "Id": "2f6dd61f-dc24-4410-abe9-9f9bfb89714e",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-10.jpg"
+    },
+    {
+      "Id": "c1496bd0-1ecf-49c5-9379-65573534776f",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-11.jpg"
+    },
+    {
+      "Id": "bab329e4-2a94-474f-a7eb-ed43ecaf8aaf",
+      "OrigamiModelId": "341e05be-2030-413a-a76f-2661b42ed305",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/Traditional-Origami-Lucky-Star-Diagram-Step-12.jpg"
+    },
+    {
+      "Id": "34daeac8-23f7-41d5-8a76-9f42d94a44e7",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side facing up in a diamond position. Fold and unfold the paper in half horizontally and vertically.",
+      "ImageUrl": "/images/origami/origami-envelope-step-1.jpg"
+    },
+    {
+      "Id": "a0a622af-1355-4c5b-8d23-0df10f5d2970",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the top and bottom corners to the center point.",
+      "ImageUrl": "/images/origami/origami-envelope-step-2.jpg"
+    },
+    {
+      "Id": "7eb55a65-1c06-435c-90ea-e3c4408fc271",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Rotate the model 90° clockwise.",
+      "ImageUrl": "/images/origami/origami-envelope-step-3.gif"
+    },
+    {
+      "Id": "3f593898-df2f-4a50-96be-80ad891c61e4",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Fold the top corner down to the center point. Make a light pinch mark, then unfold.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-4.png"
+    },
+    {
+      "Id": "8b243669-9741-45cd-9d65-971c8f57dcbf",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Fold the bottom corner up to the pinch mark you just made, then unfold.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-5.png"
+    },
+    {
+      "Id": "64b99acb-5ba7-48d6-8cfa-307bde5001d1",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Fold the bottom corner up to the crease made in Step 5.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-6.png"
+    },
+    {
+      "Id": "a88770f0-7ea0-48b8-b8e3-fe3086ca324d",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Fold the bottom left section upward, aligning the left edge with the crease from Step 5. The circled points should meet.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-7.png"
+    },
+    {
+      "Id": "15375ea7-3292-4999-a31a-59da117f7c2d",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Repeat Step 7 on the right side.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-8.png"
+    },
+    {
+      "Id": "a4ffac96-16d0-4bd0-967e-b35523b43feb",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Unfold Steps 6 through 8.",
+      "ImageUrl": "/images/origami/origami-envelope-step-9.gif"
+    },
+    {
+      "Id": "fe0858fb-48b5-45e8-9485-e3475335a22e",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Fold along the dashed lines, using the existing creases as guides.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-10.png"
+    },
+    {
+      "Id": "ead551c0-8c73-4919-a24b-f69996d715d1",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Fold the bottom corner up, using the creases from Step 10 as guides.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-11.png"
+    },
+    {
+      "Id": "45c280ae-c88b-4040-937f-dce5f730eb79",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Fold the bottom area upward along the existing crease.",
+      "ImageUrl": "/images/origami/origami-envelope-step-12.gif"
+    },
+    {
+      "Id": "4a9e5228-281b-445b-8365-496c1d19e898",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Fold the bottom left and right sections inward along the existing creases.",
+      "ImageUrl": "/images/origami/origami-envelope-step-13.gif"
+    },
+    {
+      "Id": "9df23d97-dae0-4391-b20d-bf03e8408a25",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Flip the hidden flap from left to right.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-14.png"
+    },
+    {
+      "Id": "d0ecdc8a-8677-45d0-956c-0ce033cc7a32",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Repeat Step 14 for the remaining hidden flaps, 3 more times.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-15.png"
+    },
+    {
+      "Id": "7f389ec0-60f7-4a66-9233-2569485ae59d",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Fold the bottom edge up to the nearest horizontal edge. Unfold, then turn the model over.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-16.png"
+    },
+    {
+      "Id": "9bfb97c4-75b2-45b4-b001-550ab2acd4e4",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Fold along the crease made in Step 16. The square flap will move from the back to the front.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-17.png"
+    },
+    {
+      "Id": "b51c277f-f75d-4c58-94fb-87fc01f5eca8",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-envelope-step-18.gif"
+    },
+    {
+      "Id": "f927ea64-e9fc-4bc1-8e76-59ffed3ea144",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Fold the bottom area upward along the existing crease.",
+      "ImageUrl": "/images/origami/origami-envelope-step-19.gif"
+    },
+    {
+      "Id": "bdd2a113-f23a-4f79-85bc-7da5dd2f437c",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Gently untuck the left flap and tuck it underneath the square.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-20.png"
+    },
+    {
+      "Id": "ca4d1458-6ce1-42e3-aacd-662185c159c8",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Repeat Step 20 on the right side.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-21.png"
+    },
+    {
+      "Id": "93f40421-7ae3-420e-a725-b35e0345a472",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Fold the top corner down to the bottom edge, then unfold.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-22.png"
+    },
+    {
+      "Id": "55fd93d1-7079-46bc-ad2c-88bcf3679ea0",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Fold the top corner down to the crease made in Step 22.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-23.png"
+    },
+    {
+      "Id": "b19885c6-ea05-425c-a913-44df8e1a6967",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 24,
+      "Title": "Step 24",
+      "Description": "Fold along the crease from Step 22 and tuck the flap underneath the square.",
+      "ImageUrl": "/images/origami/origami-envelope-diagram-step-24.png"
+    },
+    {
+      "Id": "6e3895ad-9992-4194-9193-e3451fdc18f5",
+      "OrigamiModelId": "ce7585f4-5007-4a64-adc1-17625c92bd2a",
+      "StepNumber": 25,
+      "Title": "Step 25",
+      "Description": "Step 25: Follow the diagram carefully.",
+      "ImageUrl": "/images/origami/completed-origami-envelope.jpg"
+    },
+    {
+      "Id": "17867a55-638a-4ddb-be6d-9c4307676ea8",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-squirrel-paper-fold-step-1.png"
+    },
+    {
+      "Id": "ce8bbce8-d99c-48e4-a55b-ce4c6043c334",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-squirrel-paper-fold-step-2.png"
+    },
+    {
+      "Id": "32f9fa11-38d1-4c0f-9c36-f7988da34a90",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-squirrel-paper-fold-step-3.png"
+    },
+    {
+      "Id": "0ff34589-a260-4e1b-9f69-2c21afb38a21",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-4-1024x1024.png"
+    },
+    {
+      "Id": "428a1519-5b47-44be-adc6-8e9a95c39449",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-5-1024x1024.png"
+    },
+    {
+      "Id": "908724fa-38ed-411e-aafb-de04f0414bc4",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-squirrel-paper-fold-step-6.png"
+    },
+    {
+      "Id": "e21c7d9b-3a31-4296-b34c-7e899b408eb5",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-7-1024x1024.png"
+    },
+    {
+      "Id": "ac062796-e48f-4471-bc0e-49b9b775a333",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-8-1024x1024.png"
+    },
+    {
+      "Id": "06c265ea-bc28-4cbc-ac30-ac121624cd89",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-9-1024x1024.png"
+    },
+    {
+      "Id": "fb77c967-66e7-4814-8180-15e6b04f119d",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-10-1024x1024.png"
+    },
+    {
+      "Id": "09acc7cb-a394-4bc0-9342-ea5d01858503",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-squirrel-paper-fold-step-11.gif"
+    },
+    {
+      "Id": "6433e448-0570-490e-a905-c93587432ded",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-12-1024x1024.png"
+    },
+    {
+      "Id": "ed11073e-60e1-4bc6-90ec-8452369c15a2",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-13-1024x1024.png"
+    },
+    {
+      "Id": "4aa81863-8506-4d5a-9c8c-ad0702b0fcc2",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-14-1024x1024.png"
+    },
+    {
+      "Id": "6df5c026-054c-4b29-b806-56c988a8ffd3",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Carefully fold following the diagram for step 15.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-15-1024x1024.png"
+    },
+    {
+      "Id": "d518935f-5ad4-4a38-850c-026514a46254",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Carefully fold following the diagram for step 16.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-16-1024x1024.png"
+    },
+    {
+      "Id": "6dfb234f-03e8-4502-9091-d5e806c8dc1d",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Carefully fold following the diagram for step 17.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-17-1024x1024.png"
+    },
+    {
+      "Id": "81477af2-5ea7-488e-8a4d-89c12bd6f35b",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Carefully fold following the diagram for step 18.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-18-1024x1024.png"
+    },
+    {
+      "Id": "61f03b5c-0a5a-4d5a-a8f9-1969c26a4b02",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Carefully fold following the diagram for step 19.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-19-1024x1024.png"
+    },
+    {
+      "Id": "d031d680-93da-4033-b3bb-f69d832baa59",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Carefully fold following the diagram for step 20.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-20-1024x1024.png"
+    },
+    {
+      "Id": "6b19baf3-8731-4eff-9b4e-d65e98ac156f",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Carefully fold following the diagram for step 21.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-21-1024x1024.png"
+    },
+    {
+      "Id": "3e053bdd-9bbe-4231-9f99-973d0e38c2f4",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Carefully fold following the diagram for step 22.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-22-1024x1024.png"
+    },
+    {
+      "Id": "2a1e869e-1632-42be-8064-bc5c50ba07fc",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Carefully fold following the diagram for step 23.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-23-1024x1024.png"
+    },
+    {
+      "Id": "f58574c5-ec99-49c0-8912-3d1c184e1508",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 24,
+      "Title": "Step 24",
+      "Description": "Carefully fold following the diagram for step 24.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-24-1024x1024.png"
+    },
+    {
+      "Id": "a3507505-450b-487b-932e-416ca27c026f",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 25,
+      "Title": "Step 25",
+      "Description": "Carefully fold following the diagram for step 25.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-25-1024x1024.png"
+    },
+    {
+      "Id": "efdd5473-638e-4f0d-96bf-802cc521c4d3",
+      "OrigamiModelId": "02dadfdd-21fe-4467-9995-2ffe7aa0c9be",
+      "StepNumber": 26,
+      "Title": "Step 26",
+      "Description": "Carefully fold following the diagram for step 26.",
+      "ImageUrl": "/images/origami/origami-squirrel-diagram-step-26-1024x1024.png"
+    },
+    {
+      "Id": "28e392f4-f606-43bf-9320-44c57ba7b811",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "d9315b11-881b-4543-a2da-8453955fdda9",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-2.jpg"
+    },
+    {
+      "Id": "54d25fcd-f756-43d4-8141-beafe21961ea",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-3.jpg"
+    },
+    {
+      "Id": "9b05bf03-a8e1-436d-88b6-cd645d2db31f",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-4.gif"
+    },
+    {
+      "Id": "b247a864-356d-420f-92af-fe86ce9b909c",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-5.gif"
+    },
+    {
+      "Id": "81d4a71a-b0a0-45bc-999b-2766cb1e700e",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-6.jpg"
+    },
+    {
+      "Id": "4fd2caec-99e9-4574-9638-88a9354d5f1b",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-7.gif"
+    },
+    {
+      "Id": "14883f3f-cefa-448d-968b-2cf7a7e6ab59",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-8.jpg"
+    },
+    {
+      "Id": "e61de79e-7841-4512-bcd7-79f4d0a4d2d5",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-9.jpg"
+    },
+    {
+      "Id": "4230a2da-b085-4d68-ae52-74d93816bc98",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-10.jpg"
+    },
+    {
+      "Id": "6e6de8a6-bea7-456d-8e18-7fad1c562ea3",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-11.jpg"
+    },
+    {
+      "Id": "fdb36256-9ffb-4e75-933f-ad64ecaaa11f",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-12.jpg"
+    },
+    {
+      "Id": "6939b378-003b-456e-8066-286af9763907",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-13.jpg"
+    },
+    {
+      "Id": "74e04f38-0fe1-48eb-ae1e-028c933a87e0",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-14.jpg"
+    },
+    {
+      "Id": "74cbbf2a-30de-495e-9f90-b5e4f3413181",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Carefully fold following the diagram for step 15.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-15.gif"
+    },
+    {
+      "Id": "ba86e100-87f9-43eb-9e0a-caca91f1e4bf",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Carefully fold following the diagram for step 16.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-16.jpg"
+    },
+    {
+      "Id": "60a44dbe-2fcb-4ad8-84ee-2b34b4e5862f",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Carefully fold following the diagram for step 17.",
+      "ImageUrl": "/images/origami/origami-owl-paper-fold-step-17.gif"
+    },
+    {
+      "Id": "6c007aeb-7cf7-4cf5-ab86-40fb646466d9",
+      "OrigamiModelId": "010d47b6-6b46-4d18-81e9-2c51483a7e36",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Carefully fold following the diagram for step 18.",
+      "ImageUrl": "/images/origami/origami-owl-diagram-step-18.jpg"
+    },
+    {
+      "Id": "bf2eadd6-ddf8-47dd-bce4-5501f27c2003",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Start with the white side facing up. Fold and unfold in half both vertically and horizontally.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-step-1.jpg"
+    },
+    {
+      "Id": "6a388118-be54-490e-af32-06896ff12d4f",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Fold the bottom left corner to the center point.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-step-2.jpg"
+    },
+    {
+      "Id": "b02ff522-17c7-4580-972f-1cdce53be0ae",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Fold the remaining three corners to the center point.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-step-3.jpg"
+    },
+    {
+      "Id": "8dc23716-1c93-4ca0-a18b-cbfcb022c5dc",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Rotate the paper 45° clockwise. Then, fold and unfold the top and bottom edges to the center point.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-step-4.jpg"
+    },
+    {
+      "Id": "929554fa-2563-47b8-81fc-01cad45afa67",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Unfold the top and bottom flaps completely.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-step-5.gif"
+    },
+    {
+      "Id": "6655e023-ce3a-40a8-b71b-d0d10101b142",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Fold the left edge to the center point and unfold. Repeat with the right edge.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-step-6.jpg"
+    },
+    {
+      "Id": "1df7db33-a2e7-46e8-b2fa-ea1b7b06575a",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Collapse the box as shown.",
+      "ImageUrl": "/images/origami/origami-box-diagram-step-7.png"
+    },
+    {
+      "Id": "9626b363-adaa-45dc-bf95-0464dd3d7dcc",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Fold the top flap down into the box to close and secure it.",
+      "ImageUrl": "/images/origami/origami-box-diagram-step-8.png"
+    },
+    {
+      "Id": "2f55b493-5f98-495a-a728-60d62d54206e",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Push the bottom left and bottom right areas inward, just like in Step 7.",
+      "ImageUrl": "/images/origami/origami-box-diagram-step-9.png"
+    },
+    {
+      "Id": "90fe2d4e-c0e6-473d-bc63-5a271a8cf2d8",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Fold the remaining flap down into the box to close it, just like in Step 8.",
+      "ImageUrl": "/images/origami/origami-box-diagram-step-10.png"
+    },
+    {
+      "Id": "f325290f-add3-4815-907a-4497321c25b0",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "The box is complete! Next, I'll show you how to fold the lid.",
+      "ImageUrl": "/images/origami/origami-box-paper-fold-completed.jpg"
+    },
+    {
+      "Id": "62c13df1-2e6c-4778-97df-5b5d477e6d9e",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "For the lid: repeat the same folding process as the box, but leave a small gap between the corners and the center point in Steps 2 and 3.",
+      "ImageUrl": "/images/origami/origami-box-lid-diagram-step-1.png"
+    },
+    {
+      "Id": "7b5448ed-acec-47c4-9142-79cf7f67f7dc",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Fold the top edge to the center point and unfold, but leave a gap this time. Then fold the bottom edge the same way, leaving the same gap.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-2.png"
+    },
+    {
+      "Id": "9ef53f86-9c5a-4e8c-99ce-fd0d4c1244df",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Rotate the paper 90° clockwise. Repeat Step 13 on the other two sides.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-3.png"
+    },
+    {
+      "Id": "b7e7192a-ed08-48f0-99b3-4f2c6fe843eb",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Fold and unfold the bottom edge to the nearest horizontal crease line. Repeat on the other three sides.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-4.png"
+    },
+    {
+      "Id": "49ffa4b3-9f9d-4bfd-8107-f927d174bf5e",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Unfold the left and right flaps.",
+      "ImageUrl": "/images/origami/origami-shallow-box-lid-paper-fold-step-5.gif"
+    },
+    {
+      "Id": "aa4497d3-5394-4036-90e4-c086ab0c2b28",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Fold the top and bottom edges along the nearest existing creases. Then rotate the model 90° clockwise.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-6.png"
+    },
+    {
+      "Id": "5918abbc-0921-4f11-b341-e89f28d0efa5",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-shallow-box-lid-paper-fold-step-7.gif"
+    },
+    {
+      "Id": "2dfa1b7f-958f-463f-b103-9361c01ff930",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Fold and unfold along the two existing diagonals.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-8.png"
+    },
+    {
+      "Id": "a796423a-05ae-4265-b043-c723b5a4423a",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Turn the model over.",
+      "ImageUrl": "/images/origami/origami-shallow-box-lid-paper-fold-step-9.gif"
+    },
+    {
+      "Id": "5f8fadb1-e17a-47c0-a1ad-3f0c47ceea20",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Collapse the lid as shown.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-10.png"
+    },
+    {
+      "Id": "b8ceed93-918c-43cd-936b-7e3d011ce186",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Fold the top flap down into the lid to close it.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-11.png"
+    },
+    {
+      "Id": "4b663dd7-5a29-4e5e-a3cd-35774ed45e65",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Repeat Steps 21 and 22 on the other side.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-12.png"
+    },
+    {
+      "Id": "182d6df8-84e8-40ee-96c1-9b2e4e996293",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 24,
+      "Title": "Step 24",
+      "Description": "The lid is complete! Ready for a challenge? Let's try to fold a shallow lid.",
+      "ImageUrl": "/images/origami/origami-box-with-lid-paper-fold-completed.jpg"
+    },
+    {
+      "Id": "304b9180-fc59-46c9-8804-ed562c0122a6",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 25,
+      "Title": "Step 25",
+      "Description": "For the shallow lid: repeat the box folding process from Steps 1 to 3.",
+      "ImageUrl": "/images/origami/origami-box-with-shadow-lid-diagram-step-1.png"
+    },
+    {
+      "Id": "5270cd4c-0153-43cc-a4f0-2ca1d522885d",
+      "OrigamiModelId": "3fd514dc-dc79-4bcf-b80e-31495f7e8403",
+      "StepNumber": 26,
+      "Title": "Step 26",
+      "Description": "Your Origami Box With Lid is complete! The shallow lid can also be used as a tray.",
+      "ImageUrl": "/images/origami/origami-box-with-shallow-lid-paper-fold-completed.jpg"
+    },
+    {
+      "Id": "e1589cfb-042f-46a7-96d2-7b4c37009927",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Carefully fold following the diagram for step 1.",
+      "ImageUrl": "/images/origami/origami-bird-paper-fold-step-1.png"
+    },
+    {
+      "Id": "2b606f2f-ed5c-424e-bf90-8d35001a52b2",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Carefully fold following the diagram for step 2.",
+      "ImageUrl": "/images/origami/origami-bird-paper-fold-step-2.gif"
+    },
+    {
+      "Id": "3135bded-a524-4a2a-8049-b5f545c31112",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Carefully fold following the diagram for step 3.",
+      "ImageUrl": "/images/origami/origami-bird-paper-fold-step-3.png"
+    },
+    {
+      "Id": "82f547e0-db6c-4ae2-9f15-708361b72a5e",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Carefully fold following the diagram for step 4.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-4.png"
+    },
+    {
+      "Id": "8b42b083-7760-413c-b435-6de82776893e",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Carefully fold following the diagram for step 5.",
+      "ImageUrl": "/images/origami/origami-bird-paper-fold-step-5.png"
+    },
+    {
+      "Id": "31abe679-2f58-437d-a618-981df8e0fdd0",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Carefully fold following the diagram for step 6.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-6.png"
+    },
+    {
+      "Id": "a362e562-845b-4ab9-bdb5-2620b8b5a279",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Carefully fold following the diagram for step 7.",
+      "ImageUrl": "/images/origami/origami-bird-paper-fold-step-7.gif"
+    },
+    {
+      "Id": "112b42bd-743b-41e3-b338-a704fa0bd596",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Carefully fold following the diagram for step 8.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-8.png"
+    },
+    {
+      "Id": "0102b526-ff65-40bf-9c26-93e88448dac7",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Carefully fold following the diagram for step 9.",
+      "ImageUrl": "/images/origami/origami-bird-paper-fold-step-9.gif"
+    },
+    {
+      "Id": "4ca8f7d2-88a0-4867-845e-96fd347076d4",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Carefully fold following the diagram for step 10.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-10.png"
+    },
+    {
+      "Id": "6b9811fb-7ab8-4d01-9168-bf7bb39459cb",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Carefully fold following the diagram for step 11.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-11.png"
+    },
+    {
+      "Id": "580d5849-8ba9-4b06-90fa-41d69c8079c5",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Carefully fold following the diagram for step 12.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-12.png"
+    },
+    {
+      "Id": "60266293-0535-4526-967d-51c6b4e718c9",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Carefully fold following the diagram for step 13.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-13.png"
+    },
+    {
+      "Id": "bbe74013-11e5-408e-ae62-a4d19cfcbd96",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Carefully fold following the diagram for step 14.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-14.png"
+    },
+    {
+      "Id": "d1efb59d-16de-438d-88a8-a7d77300819d",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Carefully fold following the diagram for step 15.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-15.png"
+    },
+    {
+      "Id": "96a0fbc8-8dbb-48d1-a0b1-9c4e5b0f787b",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Carefully fold following the diagram for step 16.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-16.png"
+    },
+    {
+      "Id": "bed6f90e-228c-4ef3-8c28-8a7b5ba947fe",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Carefully fold following the diagram for step 17.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-17.png"
+    },
+    {
+      "Id": "0afd4a09-e295-4172-89cc-928e6032a6b3",
+      "OrigamiModelId": "fbd07226-ad5c-47b5-b550-64f235ef4ed4",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Carefully fold following the diagram for step 18.",
+      "ImageUrl": "/images/origami/origami-bird-diagram-step-18.png"
+    },
+    {
+      "Id": "7100a9e9-318e-4899-bb7a-4f36c1a8d72a",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 1,
+      "Title": "Step 1",
+      "Description": "Cut out a circle from a rectangular or square sheet of paper.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-paper-prep-step-1.png"
+    },
+    {
+      "Id": "335eb103-e9dd-4e85-87f7-96edac74f75a",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 2,
+      "Title": "Step 2",
+      "Description": "Make a fold-line that connects the bottom left and right corners, then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-unit-fold-step-1.jpg"
+    },
+    {
+      "Id": "179035a0-c47c-41ef-830c-ecd425e6f596",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 3,
+      "Title": "Step 3",
+      "Description": "Take two units and rotate the left unit 90° counterclockwise.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-assembly-step-1.gif"
+    },
+    {
+      "Id": "ad847565-eeb1-41ab-8358-f6bcc7db0b52",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 4,
+      "Title": "Step 4",
+      "Description": "Fold the circle in half vertically, then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-paper-prep-step-2.jpg"
+    },
+    {
+      "Id": "3833d887-3233-4092-a583-0e41eacac040",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 5,
+      "Title": "Step 5",
+      "Description": "Turn the paper over.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-unit-fold-step-2.gif"
+    },
+    {
+      "Id": "93b2e05a-e8a0-410c-b788-4b47103db21c",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 6,
+      "Title": "Step 6",
+      "Description": "Slide the corner of the right unit under the edge of the left unit so that it touches the circled corner.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-assembly-step-2.gif"
+    },
+    {
+      "Id": "f91d76b2-a134-4bbf-a39c-28b5c663ed02",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 7,
+      "Title": "Step 7",
+      "Description": "Fold the paper in half horizontally, then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-paper-prep-step-3.jpg"
+    },
+    {
+      "Id": "92d49b08-5d7f-4b5b-b319-b062d5d310bd",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 8,
+      "Title": "Step 8",
+      "Description": "Fold in half vertically, then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-unit-fold-step-3.jpg"
+    },
+    {
+      "Id": "c9bd476d-6382-42de-8609-94f5609f00e7",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 9,
+      "Title": "Step 9",
+      "Description": "Rotate the units 90° counterclockwise.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-assembly-step-3.gif"
+    },
+    {
+      "Id": "b1d4bed3-6e1c-43ca-82ef-49e4690b5b69",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 10,
+      "Title": "Step 10",
+      "Description": "Cut along the creases you just made to divide the paper into four pieces.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-paper-prep-step-4.png"
+    },
+    {
+      "Id": "59e07cec-b16c-4e0d-9caa-d94dd211d439",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 11,
+      "Title": "Step 11",
+      "Description": "Fold the left edge to the horizontal line. Then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-unit-fold-step-4.jpg"
+    },
+    {
+      "Id": "41caa081-dd78-4481-b3ae-60203a3d7cad",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 12,
+      "Title": "Step 12",
+      "Description": "Take another unit and repeat Step 6. Make sure the circled point is above the new unit.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-4.png"
+    },
+    {
+      "Id": "3cf48623-8fd4-41bc-88b6-7f56efbe9684",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 13,
+      "Title": "Step 13",
+      "Description": "Fold the right edge to the horizontal line. Then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-unit-fold-step-5.jpg"
+    },
+    {
+      "Id": "fcdb3b9d-29a2-4e59-85b5-b3cdd9b68f2b",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 14,
+      "Title": "Step 14",
+      "Description": "Rotate the units 90° counterclockwise.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-assembly-step-5.gif"
+    },
+    {
+      "Id": "a0ceaecf-5ef1-4b20-9823-fc46fa0fb31e",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 15,
+      "Title": "Step 15",
+      "Description": "Begin to rabbit-ear fold the corner. Then, fold the left corner behind the right corner and flatten the paper.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-unit-fold-step-6.png"
+    },
+    {
+      "Id": "39a2a366-4553-44e1-9fa5-b1f7f0abd0e3",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 16,
+      "Title": "Step 16",
+      "Description": "Take another unit and repeat step 6 twice simultaneously. The new unit slides into the pocket on the left and the corner of the first unit slides into the pocket of the new unit.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-6.png"
+    },
+    {
+      "Id": "a4f25882-7340-42ed-a01b-fd0e11f79fe5",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 17,
+      "Title": "Step 17",
+      "Description": "Fold the right edge down to meet the vertical centerline (one layer only). Then unfold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-7.png"
+    },
+    {
+      "Id": "3986fd87-3c81-43bb-bde5-e11261af35c2",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 18,
+      "Title": "Step 18",
+      "Description": "Fold the top edge down to meet the horizontal centerline (one layer only).",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-8.png"
+    },
+    {
+      "Id": "2c7b53d3-6e57-4b9b-9f03-7341878fdf28",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 19,
+      "Title": "Step 19",
+      "Description": "Fold the left edge down to meet the vertical centerline (one layer only).",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-9.png"
+    },
+    {
+      "Id": "16d1581f-f0a3-40b2-bd85-7cd1ad6871a5",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 20,
+      "Title": "Step 20",
+      "Description": "Fold the bottom edge down to meet the horizontal centerline (one layer only).",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-10.png"
+    },
+    {
+      "Id": "8d7d6878-1f70-4b57-90ae-781e33c4f2bd",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 21,
+      "Title": "Step 21",
+      "Description": "Follow the diagram carefully to complete the unit fold.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-unit-fold-completed.jpg"
+    },
+    {
+      "Id": "38abb1c3-675e-4269-a85e-cb57a3bceec2",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 22,
+      "Title": "Step 22",
+      "Description": "Lift the indicated flap slightly, then fold along existing creases made in Step 17.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-11.png"
+    },
+    {
+      "Id": "30dedd81-282e-424b-8545-d71c5ee95c3e",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 23,
+      "Title": "Step 23",
+      "Description": "Curl the flaps slightly to make the model more three-dimensional.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-diagram-assembly-step-12.png"
+    },
+    {
+      "Id": "dbdcc4f2-70e9-4312-8b9c-1bdc0bfdff67",
+      "OrigamiModelId": "1aa0a879-a484-4500-b555-9a9d6bb1596a",
+      "StepNumber": 24,
+      "Title": "Step 24",
+      "Description": "Your Origami Floral Swirls is complete! Adjust the flaps to give it a more rounded, floral appearance.",
+      "ImageUrl": "/images/origami/origami-floral-swirls-assembly-completed.jpg"
+    }
+  ]
+}

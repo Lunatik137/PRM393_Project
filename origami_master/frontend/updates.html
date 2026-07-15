@@ -1,0 +1,177 @@
+<html>
+<head><meta charset="utf-8"></head>
+<body style="font-family: Arial, sans-serif;">
+<h1>Updates to Origami Master App</h1>
+
+<h2>3. Home Feed Screen (Updated from Home Screen)</h2>
+<h3>3.1 Purpose</h3>
+<p>The Home Feed Screen serves as the primary social hub of Origami Master. It displays origami creations published by followed users and recommended creators. Users can discover new creations, interact with posts, follow creators, and engage with the community through a continuously scrolling social feed.</p>
+
+<h3>3.2 UI Component</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Header</td><td>App Logo</td><td>Image</td><td>Displays Origami Master branding.</td></tr>
+<tr><td>Header</td><td>Search Button</td><td>Icon Button</td><td>Opens content search.</td></tr>
+<tr><td>Body</td><td>Feed List</td><td>Infinite List</td><td>Displays social feed posts.</td></tr>
+<tr><td>Body</td><td>Feed Post Card</td><td>Card</td><td>Displays creation image, creator, and interaction statistics.</td></tr>
+<tr><td>Body</td><td>Creator Avatar</td><td>Image</td><td>Displays post creator profile image.</td></tr>
+<tr><td>Body</td><td>Creator Username</td><td>Label</td><td>Displays creator username.</td></tr>
+<tr><td>Body</td><td>Creation Image</td><td>Image</td><td>Displays published origami creation.</td></tr>
+<tr><td>Body</td><td>Fold Model Name</td><td>Label</td><td>Displays associated origami model.</td></tr>
+<tr><td>Body</td><td>Like Count</td><td>Label</td><td>Displays total likes.</td></tr>
+<tr><td>Body</td><td>Comment Count</td><td>Label</td><td>Displays total comments.</td></tr>
+<tr><td>Action</td><td>Like Button</td><td>Button</td><td>Likes or unlikes a post.</td></tr>
+<tr><td>Action</td><td>Comment Button</td><td>Button</td><td>Opens comments for the selected post.</td></tr>
+<tr><td>Action</td><td>Follow Button</td><td>Button</td><td>Follows or unfollows the creator.</td></tr>
+<tr><td>Bottom</td><td>Bottom Navigation Bar</td><td>Navigation</td><td>Provides access to Home, Explore, Gallery, and Profile.</td></tr>
+</table>
+
+<h3>3.3 User Flow</h3>
+<ol>
+<li>User opens Home Feed Screen.</li>
+<li>System loads posts from followed users.</li>
+<li>System loads recommended posts.</li>
+<li>User scrolls through the feed.</li>
+<li>User may like, comment, or follow creators.</li>
+<li>User may open a post or creator profile.</li>
+</ol>
+
+<h3>3.4 Navigation Flow</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Action</th><th>Destination</th></tr>
+<tr><td>Tap Post</td><td>Post Detail Screen</td></tr>
+<tr><td>Tap Creator</td><td>User Profile Screen</td></tr>
+<tr><td>Tap Comment</td><td>Comments Screen</td></tr>
+<tr><td>Tap Explore Tab</td><td>Explore Screen</td></tr>
+<tr><td>Tap Gallery Tab</td><td>Gallery Screen</td></tr>
+<tr><td>Tap Profile Tab</td><td>Profile Screen</td></tr>
+</table>
+
+<h2>NEW SCREEN – Post Detail Screen</h2>
+<h3>Purpose</h3>
+<p>The Post Detail Screen provides a detailed view of a published origami creation. Users can review the full content, view comments, and interact with the post.</p>
+<h3>UI Component</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Header</td><td>Back Button</td><td>Icon Button</td><td>Returns to Home Feed Screen.</td></tr>
+<tr><td>Body</td><td>Creation Image</td><td>Image</td><td>Displays the published creation.</td></tr>
+<tr><td>Body</td><td>Creator Information</td><td>Profile Summary</td><td>Displays creator avatar and username.</td></tr>
+<tr><td>Body</td><td>Fold Model Name</td><td>Label</td><td>Displays related origami model.</td></tr>
+<tr><td>Body</td><td>Description</td><td>Text</td><td>Displays creator description.</td></tr>
+<tr><td>Body</td><td>Like Count</td><td>Label</td><td>Displays total likes.</td></tr>
+<tr><td>Body</td><td>Comment List</td><td>List</td><td>Displays post comments.</td></tr>
+<tr><td>Action</td><td>Like Button</td><td>Button</td><td>Likes or unlikes the post.</td></tr>
+<tr><td>Action</td><td>Add Comment Field</td><td>Input</td><td>Allows users to submit comments.</td></tr>
+</table>
+
+<h2>NEW SCREEN – User Profile Screen</h2>
+<h3>Purpose</h3>
+<p>The User Profile Screen allows users to view public information about another creator, follow them, and browse their published origami creations.</p>
+<h3>UI Component</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Header</td><td>Back Button</td><td>Icon Button</td><td>Returns to previous screen.</td></tr>
+<tr><td>Header</td><td>Avatar</td><td>Image</td><td>Displays creator avatar.</td></tr>
+<tr><td>Header</td><td>Username</td><td>Label</td><td>Displays creator username.</td></tr>
+<tr><td>Body</td><td>Followers Count</td><td>Label</td><td>Displays follower count.</td></tr>
+<tr><td>Body</td><td>Following Count</td><td>Label</td><td>Displays following count.</td></tr>
+<tr><td>Body</td><td>Public Creations Count</td><td>Label</td><td>Displays total published creations.</td></tr>
+<tr><td>Action</td><td>Follow Button</td><td>Button</td><td>Follows or unfollows the creator.</td></tr>
+<tr><td>Body</td><td>Published Creation List</td><td>List</td><td>Displays creator public creations.</td></tr>
+</table>
+
+<h2>NEW SCREEN – Comments Screen</h2>
+<h3>Purpose</h3>
+<p>The Comments Screen displays all comments associated with a post and allows authenticated users to participate in discussions.</p>
+<h3>UI Component</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Header</td><td>Back Button</td><td>Icon Button</td><td>Returns to previous screen.</td></tr>
+<tr><td>Header</td><td>Screen Title</td><td>Label</td><td>Displays Comments.</td></tr>
+<tr><td>Body</td><td>Comment List</td><td>List</td><td>Displays all post comments.</td></tr>
+<tr><td>Body</td><td>Comment Item</td><td>Card</td><td>Displays commenter and comment content.</td></tr>
+<tr><td>Footer</td><td>Comment Input</td><td>Input</td><td>Allows comment submission.</td></tr>
+<tr><td>Footer</td><td>Send Button</td><td>Button</td><td>Posts a new comment.</td></tr>
+</table>
+
+<h2>8. Completion Result Screen (UPDATE)</h2>
+<h3>Thêm UI Component</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Action</td><td>Publish To Feed Toggle</td><td>Toggle</td><td>Determines whether the completed creation will be published to the social feed.</td></tr>
+</table>
+<h3>User Flow (Bổ sung)</h3>
+<ul>
+<li>The user completes an origami lesson.</li>
+<li>The system saves completion information.</li>
+<li>The user chooses whether to publish the creation to the social feed.</li>
+<li>If Publish To Feed is enabled, the system creates a feed post.</li>
+<li>The user may generate a share link.</li>
+<li>The user may return to Home Feed or Gallery.</li>
+</ul>
+
+<h2>11. Gallery Screen (UPDATE)</h2>
+<h3>Purpose</h3>
+<p>The Gallery Screen stores and manages creations belonging only to the current user. Both public and private creations are displayed here regardless of publication status.</p>
+<h3>UI Component (Thêm)</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Body</td><td>Visibility Filter</td><td>Filter</td><td>Filters Public and Private creations.</td></tr>
+</table>
+
+<h2>13. Creation Detail Screen (UPDATE)</h2>
+<h3>UI Component (Thêm)</h3>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Body</td><td>Feed Status Badge</td><td>Badge</td><td>Indicates whether the creation has been published to the social feed.</td></tr>
+<tr><td>Action</td><td>Publish To Feed Button</td><td>Button</td><td>Publishes a private creation to the social feed.</td></tr>
+<tr><td>Action</td><td>Remove From Feed Button</td><td>Button</td><td>Removes a published creation from the social feed.</td></tr>
+</table>
+
+<h2>16. Profile Screen (UPDATE)</h2>
+<h3>UI Component</h3>
+<p>Thay thế: <b>Private Creations Count</b> bằng: <b>Public Creations Count</b></p>
+<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+<tr style="background-color: #f2f2f2;"><th>Section</th><th>Component</th><th>Data Type</th><th>Description</th></tr>
+<tr><td>Body</td><td>Completed Folds Count</td><td>Label</td><td>Displays completed origami lessons.</td></tr>
+<tr><td>Body</td><td>Public Creations Count</td><td>Label</td><td>Displays creations published to the social feed.</td></tr>
+</table>
+
+<h2>Navigation Flow (UPDATE)</h2>
+<pre style="background-color: #f8f9fa; padding: 15px; border: 1px solid #ddd; font-family: monospace;">
+Splash
+ ↓
+Login
+ ↓
+Home Feed
+ ├─ Post Detail
+ │   └─ Comments
+ ├─ User Profile
+ ├─ Explore
+ ├─ Gallery
+ └─ Profile
+
+Explore
+ └─ Fold Detail
+      └─ Learning Step
+           └─ Completion Result
+
+Completion Result
+ ├─ Publish To Feed
+ ├─ Gallery
+ └─ Generate Share Link
+
+Gallery
+ └─ Creation Detail
+       └─ Generate Share Link
+
+Profile
+ ├─ Shared Links
+ ├─ Settings
+ └─ Logout
+
+Shared Links
+ └─ Shared Creation
+</pre>
+</body>
+</html>

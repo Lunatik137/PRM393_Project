@@ -1,0 +1,12 @@
+using System;
+
+namespace OrigamiMaster.Application.Features.OrigamiModels.DTOs;
+
+public class OrigamiStepDto
+{
+    public Guid Id { get; set; }
+    public int StepNumber { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public string? ImageUrl { get; set; }
+}

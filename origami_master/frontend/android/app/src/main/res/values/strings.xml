@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Web Client ID from Google Cloud Console (OAuth 2.0 > Web application).
+        Required by google_sign_in ^7.x for Android to retrieve idToken.
+        This is NOT the Android Client ID - it must be the Web application type.
+    -->
+    <string name="default_web_client_id">698858502953-msvek08mbvneb6dd3nhd01q3m6k1hjg1.apps.googleusercontent.com</string>
+</resources>

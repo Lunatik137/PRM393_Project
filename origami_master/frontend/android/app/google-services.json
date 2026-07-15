@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "698858502953",
+    "project_id": "origami-master-86edd",
+    "storage_bucket": "origami-master-86edd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698858502953:android:f24ec59e951c90a9761538",
+        "android_client_info": {
+          "package_name": "com.example.origami_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698858502953-thh6sf23c6o6ttrl7p66fek7je2uhpct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.origami_master",
+            "certificate_hash": "d4edf5ccb869891affd0686e596df11a63d970ff"
+          }
+        },
+        {
+          "client_id": "698858502953-msvek08mbvneb6dd3nhd01q3m6k1hjg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwjZHpHEwsN8CM2IeCbZWGZwvqk7cbc30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698858502953-msvek08mbvneb6dd3nhd01q3m6k1hjg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
