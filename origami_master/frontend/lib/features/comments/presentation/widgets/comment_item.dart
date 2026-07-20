@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../../../../../core/theme/app_colors.dart';
@@ -58,11 +59,25 @@ class CommentItem extends StatelessWidget {
                   ],
                 ],
               ),
-              const SizedBox(height: AppSpacing.xxs),
-              Text(
-                comment.content,
-                style: AppTextStyles.body,
-              ),
+              if (comment.content.trim().isNotEmpty) ...[
+                const SizedBox(height: AppSpacing.xxs),
+                Text(
+                  comment.content,
+                  style: AppTextStyles.body,
+                ),
+              ],
+              if (comment.localImagePath != null) ...[
+                const SizedBox(height: AppSpacing.sm),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(AppSpacing.sm),
+                  child: Image.file(
+                    File(comment.localImagePath!),
+                    height: 150,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ],
             ],
           ),
         ),

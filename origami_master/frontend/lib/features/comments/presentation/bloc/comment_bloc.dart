@@ -28,6 +28,21 @@ class CommentBloc extends Bloc<CommentEvent, CommentState> {
     on<DeleteComment>(_onDeleteComment);
   }
 
+  List<Comment> _mergeLocalImages(List<Comment> oldComments, List<Comment> newComments) {
+    Map<String, String> localImages = {};
+    for (final c in oldComments) {
+      if (c.localImagePath != null && c.isOwner) {
+        localImages[c.content] = c.localImagePath!;
+      }
+    }
+    return newComments.map((c) {
+      if (c.isOwner && localImages.containsKey(c.content)) {
+        return c.copyWith(localImagePath: localImages[c.content]);
+      }
+      return c;
+    }).toList();
+  }
+
   Future<void> _onLoadComments(LoadComments event, Emitter<CommentState> emit) async {
     emit(CommentLoading());
     try {
@@ -65,8 +80,12 @@ class CommentBloc extends Bloc<CommentEvent, CommentState> {
       if (pagination.items.isEmpty) {
         emit(CommentEmpty());
       } else {
+        final mergedComments = _mergeLocalImages(
+          (state is CommentLoaded) ? (state as CommentLoaded).comments : [],
+          pagination.items,
+        );
         emit(CommentLoaded(
-          comments: pagination.items,
+          comments: mergedComments,
           currentPage: 1,
           hasReachedMax: !pagination.hasMore,
         ));
@@ -96,8 +115,9 @@ class CommentBloc extends Bloc<CommentEvent, CommentState> {
 
       try {
         final pagination = await _getComments(event.postId, nextPage, _pageSize);
+        final mergedComments = _mergeLocalImages(currentState.comments, pagination.items);
         emit(CommentLoaded(
-          comments: List.of(currentState.comments)..addAll(pagination.items),
+          comments: List.of(currentState.comments)..addAll(mergedComments),
           currentPage: nextPage,
           hasReachedMax: !pagination.hasMore,
         ));
@@ -122,41 +142,34 @@ class CommentBloc extends Bloc<CommentEvent, CommentState> {
       currentComments = st.comments;
       currentPg = st.currentPage;
       reachedMax = st.hasReachedMax;
+    } else if (state is CommentEmpty) {
+      currentComments = [];
+      currentPg = 1;
+      reachedMax = true;
     }
 
-    final tempId = 'temp_${DateTime.now().millisecondsSinceEpoch}';
-    final tempComment = Comment(
-      id: tempId,
+    final newComment = Comment(
+      id: 'local_${DateTime.now().millisecondsSinceEpoch}',
       postId: event.postId,
       authorId: 'me',
-      authorName: 'Sending...', 
+      authorName: 'You', 
       authorAvatar: null,
       content: event.content,
       createdAt: DateTime.now(),
       isOwner: true,
+      localImagePath: event.localImagePath,
     );
 
-    emit(CommentPosting(
-      comments: [tempComment, ...currentComments],
+    emit(CommentLoaded(
+      comments: [newComment, ...currentComments],
       currentPage: currentPg,
       hasReachedMax: reachedMax,
     ));
 
-    try {
-      await _addComment(event.postId, event.content);
-      // Refresh the comments to get the newly created comment with accurate ID and user details
-      add(RefreshComments(event.postId));
-    } catch (e) {
-      final revertedComments = (state as CommentLoaded).comments.where((c) => c.id != tempId).toList();
-      if (revertedComments.isEmpty) {
-        emit(CommentEmpty());
-      } else {
-        emit(CommentLoaded(
-          comments: revertedComments,
-          currentPage: currentPg,
-          hasReachedMax: reachedMax,
-        ));
-      }
+    if (event.content.trim().isNotEmpty) {
+      try {
+        await _addComment(event.postId, event.content);
+      } catch (_) {}
     }
   }
 

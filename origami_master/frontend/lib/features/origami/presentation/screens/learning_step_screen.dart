@@ -150,6 +150,13 @@ class _LearningStepScreenState extends State<LearningStepScreen> {
           style: AppTextStyles.label,
         ),
         centerTitle: true,
+        actions: [
+          if (!_isLastStep)
+            TextButton(
+              onPressed: _finish,
+              child: const Text('Skip'),
+            ),
+        ],
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(4),
           child: LinearProgressIndicator(

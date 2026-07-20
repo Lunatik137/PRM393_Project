@@ -183,10 +183,11 @@ class _CommentsViewState extends State<CommentsView> {
                 final isSending = state is CommentPosting;
                 return CommentInput(
                   isSending: isSending,
-                  onSend: (content) {
+                  onSend: (content, imagePath) {
                     context.read<CommentBloc>().add(AddComment(
                       postId: widget.postId,
                       content: content,
+                      localImagePath: imagePath,
                     ));
                   },
                 );

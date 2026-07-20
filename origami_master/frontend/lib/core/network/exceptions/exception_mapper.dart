@@ -38,7 +38,7 @@ class ExceptionMapper {
         case DioExceptionType.connectionError:
           return NetworkException('No internet connection');
         default:
-          return UnknownException('An unexpected error occurred');
+          return UnknownException('Lỗi: ${error.message ?? error.toString()}');
       }
     } else if (error is AppException) {
       return error;

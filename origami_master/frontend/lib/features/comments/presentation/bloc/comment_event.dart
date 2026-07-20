@@ -30,9 +30,10 @@ class LoadMoreComments extends CommentEvent {
 class AddComment extends CommentEvent {
   final String postId;
   final String content;
-  const AddComment({required this.postId, required this.content});
+  final String? localImagePath;
+  const AddComment({required this.postId, required this.content, this.localImagePath});
   @override
-  List<Object?> get props => [postId, content];
+  List<Object?> get props => [postId, content, localImagePath];
 }
 
 class DeleteComment extends CommentEvent {

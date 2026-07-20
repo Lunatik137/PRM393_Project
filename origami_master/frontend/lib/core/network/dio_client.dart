@@ -24,6 +24,7 @@ abstract class DioModule {
         headers: {
           ApiConstants.accept: ApiConstants.applicationJson,
           ApiConstants.contentType: ApiConstants.applicationJson,
+          'ngrok-skip-browser-warning': 'true',
         },
       ),
     );

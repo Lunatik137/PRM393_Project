@@ -12,6 +12,7 @@ class GalleryGrid extends StatefulWidget {
   final VoidCallback onLoadMore;
   final void Function(GalleryItem)? onItemTap;
   final bool showCreatorName;
+  final bool isPost;
 
   const GalleryGrid({
     super.key,
@@ -21,6 +22,7 @@ class GalleryGrid extends StatefulWidget {
     required this.onLoadMore,
     this.onItemTap,
     this.showCreatorName = false,
+    this.isPost = false,
   });
 
   @override
@@ -76,6 +78,7 @@ class _GalleryGridState extends State<GalleryGrid> {
                 return GalleryCard(
                   item: item,
                   showCreatorName: widget.showCreatorName,
+                  isPost: widget.isPost,
                   onTap: () {
                     if (widget.onItemTap != null) {
                       widget.onItemTap!(item);

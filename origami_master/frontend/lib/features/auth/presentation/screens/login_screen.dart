@@ -189,7 +189,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           OutlinedButton.icon(
                             onPressed: isLoading ? null : _handleGoogleLogin,
                             icon: SvgPicture.asset(
-                              'assets/icons/google_logo.svg', // Ensure you have a google_logo.svg in assets/icons
+                              'assets/icons/google_logo.svg', 
                               width: 24,
                               height: 24,
                             ),

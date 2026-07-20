@@ -138,6 +138,7 @@ class _GalleryTabViewState extends State<GalleryTabView> with AutomaticKeepAlive
                 items: state.items,
                 isLoadingMore: state is GalleryLoadingMore,
                 hasReachedMax: state.hasReachedMax,
+                isPost: widget.isPostsTab,
                 onLoadMore: () {
                   context.read<GalleryBloc>().add(LoadMoreGallery());
                 },

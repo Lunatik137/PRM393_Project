@@ -10,7 +10,7 @@ class AppConfig {
         // LƯU Ý: 
         // 1. Nếu bạn dùng máy ảo Android (Emulator), hãy đổi thành: 'http://10.0.2.2:5097/api/v1'
         // 2. Nếu dùng máy thật, giữ nguyên IP '192.168.110.197' nhưng phải TẮT TƯỜNG LỬA (Windows Firewall)
-        return 'https://unscrutinising-charlotte-deformative.ngrok-free.dev/api/v1'; 
+        return 'http://10.33.91.189:5097/api/v1';
       case Environment.staging:
         return 'https://staging.origamimaster.com/api/v1';
       case Environment.prod:

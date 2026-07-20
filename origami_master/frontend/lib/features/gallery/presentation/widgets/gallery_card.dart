@@ -9,12 +9,14 @@ class GalleryCard extends StatelessWidget {
   final GalleryItem item;
   final VoidCallback onTap;
   final bool showCreatorName;
+  final bool isPost;
 
   const GalleryCard({
     super.key,
     required this.item,
     required this.onTap,
     this.showCreatorName = false,
+    this.isPost = false,
   });
 
   @override
@@ -94,11 +96,12 @@ class GalleryCard extends StatelessWidget {
                 ),
               ],
             ),
-            Positioned(
-              top: AppSpacing.sm,
-              right: AppSpacing.sm,
-              child: VisibilityBadge(isPublished: item.visibility == 'Public'),
-            ),
+            if (!isPost)
+              Positioned(
+                top: AppSpacing.sm,
+                right: AppSpacing.sm,
+                child: VisibilityBadge(isPublished: item.visibility == 'Public'),
+              ),
           ],
         ),
       ),

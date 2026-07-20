@@ -70,7 +70,7 @@ class _HomeFeedViewState extends State<HomeFeedView> {
     if (!_scrollController.hasClients) return false;
     final maxScroll = _scrollController.position.maxScrollExtent;
     final currentScroll = _scrollController.offset;
-    return currentScroll >= (maxScroll * 0.8);
+    return maxScroll > 0 && currentScroll >= (maxScroll - 50);
   }
 
   Future<void> _onRefresh() async {
@@ -141,8 +141,9 @@ class _HomeFeedViewState extends State<HomeFeedView> {
                 onRefresh: _onRefresh,
                 child: ListView.builder(
                   controller: _scrollController,
-                  physics: const AlwaysScrollableScrollPhysics(),
-                  padding: const EdgeInsets.only(bottom: AppSpacing.xxl),
+                  padding: EdgeInsets.only(
+                    bottom: state.hasReachedMax ? AppSpacing.xxl : MediaQuery.of(context).size.height * 0.5,
+                  ),
                   itemCount: state.hasReachedMax ? state.posts.length : state.posts.length + 1,
                   itemBuilder: (context, index) {
                     if (index >= state.posts.length) {

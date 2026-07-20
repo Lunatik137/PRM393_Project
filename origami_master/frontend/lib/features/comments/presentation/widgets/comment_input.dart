@@ -1,11 +1,13 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import '../../../../../core/theme/app_colors.dart';
 import '../../../../../core/theme/app_spacing.dart';
 import '../../../../../core/theme/app_text_styles.dart';
 import '../../../../../core/theme/app_radius.dart';
 
 class CommentInput extends StatefulWidget {
-  final ValueChanged<String> onSend;
+  final void Function(String text, String? imagePath) onSend;
   final bool isSending;
 
   const CommentInput({super.key, required this.onSend, this.isSending = false});
@@ -16,12 +18,26 @@ class CommentInput extends StatefulWidget {
 
 class _CommentInputState extends State<CommentInput> {
   final _controller = TextEditingController();
+  String? _selectedImagePath;
+
+  Future<void> _pickImage() async {
+    final picker = ImagePicker();
+    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+    if (pickedFile != null) {
+      setState(() {
+        _selectedImagePath = pickedFile.path;
+      });
+    }
+  }
 
   void _submit() {
     final text = _controller.text.trim();
-    if (text.isNotEmpty) {
-      widget.onSend(text);
+    if (text.isNotEmpty || _selectedImagePath != null) {
+      widget.onSend(text, _selectedImagePath);
       _controller.clear();
+      setState(() {
+        _selectedImagePath = null;
+      });
     }
   }
 
@@ -39,9 +55,50 @@ class _CommentInputState extends State<CommentInput> {
         color: AppColors.surface,
         border: Border(top: BorderSide(color: AppColors.divider)),
       ),
-      child: Row(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
-          Expanded(
+          if (_selectedImagePath != null)
+            Padding(
+              padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Stack(
+                  alignment: Alignment.topRight,
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(AppSpacing.sm),
+                      child: Image.file(
+                        File(_selectedImagePath!),
+                        height: 100,
+                        width: 100,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                    GestureDetector(
+                      onTap: () => setState(() => _selectedImagePath = null),
+                      child: Container(
+                        margin: const EdgeInsets.all(4),
+                        decoration: const BoxDecoration(
+                          color: Colors.black54,
+                          shape: BoxShape.circle,
+                        ),
+                        child: const Icon(Icons.close, size: 16, color: Colors.white),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          Row(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.image_outlined),
+                color: AppColors.textSecondary,
+                onPressed: _pickImage,
+              ),
+              const SizedBox(width: AppSpacing.xs),
+              Expanded(
             child: TextField(
               controller: _controller,
               decoration: InputDecoration(
@@ -82,6 +139,8 @@ class _CommentInputState extends State<CommentInput> {
                 ),
         ],
       ),
-    );
+    ],
+  ),
+);
   }
 }
